@@ -1,0 +1,30 @@
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+}
+
+p,
+ul,
+ol {
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-size: 18px;
+}
+
+ul.noindent,
+ol.noindent {
+     padding-left: 27px;
+}
+
+img.glyph {
+    vertical-align: middle;
+}
+
+div.demo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.math {
+    font-family: "Times New Roman",Times,serif;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ConstantRecord" representedClassName="ConstantRecord" parentEntity="Record" syncable="YES">
+        <relationship name="containingSheet" maxCount="1" deletionRule="Nullify" destinationEntity="ConstantSheet" inverseName="records" inverseEntity="ConstantSheet" syncable="YES"/>
+    </entity>
+    <entity name="ConstantSheet" representedClassName="ConstantSheet" parentEntity="Sheet" syncable="YES">
+        <relationship name="records" optional="YES" toMany="YES" deletionRule="Deny" ordered="YES" destinationEntity="ConstantRecord" inverseName="containingSheet" inverseEntity="ConstantRecord" syncable="YES"/>
+    </entity>
+    <entity name="HistoryRecord" representedClassName="HistoryRecord" parentEntity="Record" syncable="YES">
+        <attribute name="answerIsInDegree" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="creationDate" attributeType="Date" syncable="YES"/>
+        <attribute name="sectionID" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <relationship name="containingSheet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistorySheet" inverseName="records" inverseEntity="HistorySheet" syncable="YES"/>
+    </entity>
+    <entity name="HistorySheet" representedClassName="HistorySheet" parentEntity="Sheet" syncable="YES">
+        <attribute name="ordinal" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="records" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HistoryRecord" inverseName="containingSheet" inverseEntity="HistoryRecord" syncable="YES"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" isAbstract="YES" syncable="YES">
+        <attribute name="annotation" optional="YES" attributeType="String" elementID="note" syncable="YES"/>
+        <attribute name="expression" optional="YES" attributeType="Transformable" valueTransformerName="MathExpressionToNSDataTransformer" syncable="YES"/>
+        <relationship name="symbol" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Symbol" inverseName="record" inverseEntity="Symbol" syncable="YES"/>
+    </entity>
+    <entity name="Sheet" representedClassName="Sheet" isAbstract="YES" syncable="YES">
+        <attribute name="lastOpenedDate" optional="YES" attributeType="Date" elementID="lastUsedDate" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Symbol" representedClassName="Symbol" syncable="YES">
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="subscript" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="record" maxCount="1" deletionRule="Nullify" destinationEntity="Record" inverseName="symbol" inverseEntity="Record" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ConstantRecord" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="ConstantSheet" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="HistoryRecord" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="HistorySheet" positionX="0" positionY="0" width="128" height="73"/>
+        <element name="Record" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Sheet" positionX="0" positionY="0" width="128" height="73"/>
+        <element name="Symbol" positionX="0" positionY="0" width="128" height="90"/>
+    </elements>
+</model>

@@ -1,0 +1,84 @@
+
+/* Class = "IBUILabel"; text = "( ), "; ObjectID = "13l-As-aty"; */
+"13l-As-aty.text" = "( ), ";
+
+/* Class = "IBUINavigationItem"; title = "Use History"; ObjectID = "4Ni-cw-HvR"; */
+"4Ni-cw-HvR.title" = "使用历史";
+
+/* Class = "IBUIButton"; normalTitle = "Go Review"; ObjectID = "5EI-PT-lhC"; */
+"5EI-PT-lhC.normalTitle" = "去评论";
+
+/* Class = "IBUILabel"; text = "FOR EXAMPLE,"; ObjectID = "EtJ-vf-Gje"; */
+"EtJ-vf-Gje.text" = "例如，";
+
+/* Class = "IBUINavigationItem"; title = "Tips"; ObjectID = "KOd-XX-BVN"; */
+"KOd-XX-BVN.title" = "小贴士";
+
+/* Class = "IBUILabel"; text = "Deg ⇄ Rad"; ObjectID = "UmW-qG-BdK"; */
+"UmW-qG-BdK.text" = "度 ⇌ 弧度";
+
+/* Class = "IBUINavigationItem"; title = "Deg ⇄ Rad"; ObjectID = "Vtj-FE-IoY"; */
+"Vtj-FE-IoY.title" = "度 ⇌ 弧度";
+
+/* Class = "IBUINavigationItem"; title = "Use Keyboard"; ObjectID = "WeE-eY-RVx"; */
+"WeE-eY-RVx.title" = "使用键盘";
+
+/* Class = "IBUILabel"; text = "Remove: "; ObjectID = "Zja-Bc-oYa"; */
+"Zja-Bc-oYa.text" = "移除：";
+
+/* Class = "IBUILabel"; text = "( ), "; ObjectID = "acq-vj-1Ga"; */
+"acq-vj-1Ga.text" = "( ), ";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Precedence"; ObjectID = "cv7-Uh-HOg"; */
+"cv7-Uh-HOg.headerTitle" = "优先级";
+
+/* Class = "IBUILabel"; text = "Remove: "; ObjectID = "dZQ-dL-iLM"; */
+"dZQ-dL-iLM.text" = "移除：";
+
+/* Class = "IBUILabel"; text = "( ), "; ObjectID = "en9-Y4-NNY"; */
+"en9-Y4-NNY.text" = "( ), ";
+
+/* Class = "IBUILabel"; text = "Insert: "; ObjectID = "hiq-ig-UBe"; */
+"hiq-ig-UBe.text" = "插入：";
+
+/* Class = "IBUILabel"; text = "Textbook Convention"; ObjectID = "jlU-QI-W3L"; */
+"jlU-QI-W3L.text" = "教科书惯例";
+
+/* Class = "IBUILabel"; text = "General"; ObjectID = "kRB-Ga-0Dr"; */
+"kRB-Ga-0Dr.text" = "概述";
+
+/* Class = "IBUITabBarItem"; title = "Tips"; ObjectID = "o7D-AM-rkE"; */
+"o7D-AM-rkE.title" = "小贴士";
+
+/* Class = "IBUIButton"; normalTitle = "Email Us"; ObjectID = "oJi-JT-1ek"; */
+"oJi-JT-1ek.normalTitle" = "写信给我们";
+
+/* Class = "IBUILabel"; text = "Insert: "; ObjectID = "p1X-0x-hL5"; */
+"p1X-0x-hL5.text" = "插入：";
+
+/* Class = "IBUINavigationItem"; title = "General"; ObjectID = "pEB-8M-8ks"; */
+"pEB-8M-8ks.title" = "概述";
+
+/* Class = "IBUILabel"; text = "Still have questions?"; ObjectID = "rh2-2F-V0O"; */
+"rh2-2F-V0O.text" = "仍有问题？";
+
+/* Class = "IBUILabel"; text = "( ), "; ObjectID = "sPH-2s-vtd"; */
+"sPH-2s-vtd.text" = "( ), ";
+
+/* Class = "IBUILabel"; text = "Use History"; ObjectID = "sce-9d-wxQ"; */
+"sce-9d-wxQ.text" = "使用历史";
+
+/* Class = "IBUILabel"; text = "Use Keyboard"; ObjectID = "taE-hU-ibT"; */
+"taE-hU-ibT.text" = "使用键盘";
+
+/* Class = "IBUITabBarItem"; title = "Preferences"; ObjectID = "v5b-bs-yHM"; */
+"v5b-bs-yHM.title" = "偏好设置";
+
+/* Class = "IBUINavigationItem"; title = "Preferences"; ObjectID = "zR6-AJ-Cge"; */
+"zR6-AJ-Cge.title" = "偏好设置";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Thousands Separator"; ObjectID = "Ihx-ax-0Sc"; */
+"Ihx-ax-0Sc.headerTitle" = "千位分隔符";
+
+/* Class = "IBUINavigationItem"; title = "History Sheets"; ObjectID = "vQo-28-zXh"; */
+"vQo-28-zXh.title" = "历史簿";

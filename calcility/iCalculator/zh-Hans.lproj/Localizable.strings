@@ -1,0 +1,71 @@
+/*
+ Localizable.strings
+ iCalculator
+ 
+ Created by curie on 13-8-19.
+ Copyright (c) 2013年 Fish Tribe. All rights reserved.
+ */
+
+"Calcility (Lite)" = "Calcility (Lite)";
+
+"Calcility" = "Calcility";
+
+"Rand" = "随机数";
+
+"Delete One Record" = "删除一条记录";
+
+"Delete %lu Records" = "删除 %lu 条记录";
+
+"Move one record to …" = "移动一条记录到…";
+
+"Move %lu records to …" = "移动 %lu 条记录到…";
+
+"%lu record" = "%lu 条记录";
+
+"%lu records" = "%lu 条记录";
+
+"Cancel" = "取消";
+
+"Done" = "完成";
+
+"Too Small" = "值过小";
+
+"Too Large" = "值过大";
+
+"Undefined" = "未定义";
+
+"Customer Feedback" = "用户反馈";
+
+"Locked in this Lite Version" = "精简版中被锁";
+
+"Limited in this Lite Version" = "精简版中受限";
+
+"Would you like to upgrade to the full-featured version?" = "您想要升级到全功能版吗？";
+
+"No, thanks" = "不，谢谢";
+
+"App Store" = "应用商店";
+
+"Oops, this device can not send mail" = "糟糕，这个设备不能发送邮件";
+
+"OK" = "好";
+
+"History" = "历史";
+
+"Title" = "标题";
+
+"Prehistory" = "史前";
+
+"Load More" = "载入更多";
+
+"= Rad" = "＝弧度";
+
+"Are you sure to select all?" = "您确定要全选吗？";
+
+"That will override the selection you've made manually." = "那样会覆盖您已经手工做出的选择。";
+
+"Select All" = "全选";
+
+"Annotate" = "注释";
+
+"Add annotation here..." = "在此添加注释…";

@@ -1,0 +1,1760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8001B6FA18AB9F0E0033D779 /* glyph-sqrt-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8001B6F918AB9F0E0033D779 /* glyph-sqrt-18@2x.png */; };
+		8001B6FB18AB9F0E0033D779 /* glyph-sqrt-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8001B6F918AB9F0E0033D779 /* glyph-sqrt-18@2x.png */; };
+		800D7C2B1A1F64330075C1BC /* HTVC_TagEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 800D7C2A1A1F64330075C1BC /* HTVC_TagEditor.m */; };
+		800D7C2C1A1F64330075C1BC /* HTVC_TagEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 800D7C2A1A1F64330075C1BC /* HTVC_TagEditor.m */; };
+		8015736917D610DD00E5A89A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AB8DBB17D5BE4B00C49A60 /* Images.xcassets */; };
+		801B8A5F196A8EA500F2FE92 /* HistorySheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 801B8A5E196A8EA500F2FE92 /* HistorySheet.m */; };
+		801B8A60196A8EA500F2FE92 /* HistorySheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 801B8A5E196A8EA500F2FE92 /* HistorySheet.m */; };
+		801DD7911A26B79700D565FE /* FTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DD77E1A26B79700D565FE /* FTUtils.m */; };
+		801DD7921A26B79700D565FE /* FTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DD77E1A26B79700D565FE /* FTUtils.m */; };
+		801F38451937167800835AED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F38441937167800835AED /* CoreData.framework */; };
+		801F3864193A145200835AED /* Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F3863193A145200835AED /* Symbol.m */; };
+		801F3865193A145200835AED /* Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F3863193A145200835AED /* Symbol.m */; };
+		801F386C193A145300835AED /* ConstantRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F386B193A145300835AED /* ConstantRecord.m */; };
+		801F386D193A145300835AED /* ConstantRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F386B193A145300835AED /* ConstantRecord.m */; };
+		801F3870193A145300835AED /* ConstantSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F386F193A145300835AED /* ConstantSheet.m */; };
+		801F3871193A145300835AED /* ConstantSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F386F193A145300835AED /* ConstantSheet.m */; };
+		801F3878193A145300835AED /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F3877193A145300835AED /* Record.m */; };
+		801F3879193A145300835AED /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F3877193A145300835AED /* Record.m */; };
+		801F387C193A18EB00835AED /* HistoryRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F387B193A18EB00835AED /* HistoryRecord.m */; };
+		801F387D193A18EB00835AED /* HistoryRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F387B193A18EB00835AED /* HistoryRecord.m */; };
+		801F3880193EF50F00835AED /* Sheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F387F193EF50F00835AED /* Sheet.m */; };
+		801F3881193EF50F00835AED /* Sheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F387F193EF50F00835AED /* Sheet.m */; };
+		802285FE19E16F98003689F5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802285FD19E16F98003689F5 /* AudioToolbox.framework */; };
+		8022860119E16FA5003689F5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802285FD19E16F98003689F5 /* AudioToolbox.framework */; };
+		8022860419E25A16003689F5 /* ViewControllerDropAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8022860319E25A16003689F5 /* ViewControllerDropAnimator.m */; };
+		8022860519E25A16003689F5 /* ViewControllerDropAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8022860319E25A16003689F5 /* ViewControllerDropAnimator.m */; };
+		8024BC9E1A44639E001859D5 /* CALayer+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8024BC9D1A44639E001859D5 /* CALayer+MyAdditions.m */; };
+		8024BC9F1A44639E001859D5 /* CALayer+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8024BC9D1A44639E001859D5 /* CALayer+MyAdditions.m */; };
+		802D6DEB181A15F40038C660 /* MathFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 802D6DEA181A15F40038C660 /* MathFraction.m */; };
+		802D6DEC181A15F40038C660 /* MathFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 802D6DEA181A15F40038C660 /* MathFraction.m */; };
+		802F07AC1A3ADAF4000FD6D9 /* FTPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07AB1A3ADAF4000FD6D9 /* FTPopoverView.m */; };
+		802F07AD1A3ADAF4000FD6D9 /* FTPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07AB1A3ADAF4000FD6D9 /* FTPopoverView.m */; };
+		802F07BF1A3B276C000FD6D9 /* FTBarLens.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B11A3B276C000FD6D9 /* FTBarLens.m */; };
+		802F07C01A3B276C000FD6D9 /* FTBarLens.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B11A3B276C000FD6D9 /* FTBarLens.m */; };
+		802F07C11A3B276C000FD6D9 /* FTCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B31A3B276C000FD6D9 /* FTCaret.m */; };
+		802F07C21A3B276C000FD6D9 /* FTCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B31A3B276C000FD6D9 /* FTCaret.m */; };
+		802F07C31A3B276C000FD6D9 /* FTInputSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B51A3B276C000FD6D9 /* FTInputSystem.m */; };
+		802F07C41A3B276C000FD6D9 /* FTInputSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B51A3B276C000FD6D9 /* FTInputSystem.m */; };
+		802F07C51A3B276C000FD6D9 /* FTLoupe.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B71A3B276C000FD6D9 /* FTLoupe.m */; };
+		802F07C61A3B276C000FD6D9 /* FTLoupe.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B71A3B276C000FD6D9 /* FTLoupe.m */; };
+		802F07C71A3B276C000FD6D9 /* FTSelectionSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B91A3B276C000FD6D9 /* FTSelectionSuite.m */; };
+		802F07C81A3B276C000FD6D9 /* FTSelectionSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07B91A3B276C000FD6D9 /* FTSelectionSuite.m */; };
+		802F07C91A3B276C000FD6D9 /* FTSelectionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07BB1A3B276C000FD6D9 /* FTSelectionHandle.m */; };
+		802F07CA1A3B276C000FD6D9 /* FTSelectionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07BB1A3B276C000FD6D9 /* FTSelectionHandle.m */; };
+		802F07CB1A3B276C000FD6D9 /* FTTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07BD1A3B276C000FD6D9 /* FTTopWindow.m */; };
+		802F07CC1A3B276C000FD6D9 /* FTTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F07BD1A3B276C000FD6D9 /* FTTopWindow.m */; };
+		802F07CD1A3B276C000FD6D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802F07BE1A3B276C000FD6D9 /* Images.xcassets */; };
+		802F07CE1A3B276C000FD6D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802F07BE1A3B276C000FD6D9 /* Images.xcassets */; };
+		802F3F941A22CB7D0079D436 /* HTVC_Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F3F931A22CB7D0079D436 /* HTVC_Tag.m */; };
+		802F3F951A22CB7D0079D436 /* HTVC_Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F3F931A22CB7D0079D436 /* HTVC_Tag.m */; };
+		80317E5418AA6517001E1319 /* MathKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 803A030B17DFF67D00BCAFF2 /* MathKeyboard.m */; };
+		80317E5518AA6518001E1319 /* MathKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 803A030B17DFF67D00BCAFF2 /* MathKeyboard.m */; };
+		80317E5E18AB78C3001E1319 /* MathPermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 808CB2511762AD460015ED33 /* MathPermutation.m */; };
+		80317E5F18AB78C4001E1319 /* MathPermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 808CB2511762AD460015ED33 /* MathPermutation.m */; };
+		8039C9E81A7F522D00978B3F /* FTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039C9E71A7F522D00978B3F /* FTTextField.m */; };
+		8039C9E91A7F522D00978B3F /* FTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039C9E71A7F522D00978B3F /* FTTextField.m */; };
+		8039C9EE1A89941D00978B3F /* FTApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039C9ED1A89941C00978B3F /* FTApplication.m */; };
+		8039C9EF1A89941D00978B3F /* FTApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039C9ED1A89941C00978B3F /* FTApplication.m */; };
+		8039C9F61A8B983300978B3F /* FTTextFieldSurrogate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039C9F51A8B983300978B3F /* FTTextFieldSurrogate.m */; };
+		8039C9F71A8B983300978B3F /* FTTextFieldSurrogate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039C9F51A8B983300978B3F /* FTTextFieldSurrogate.m */; };
+		803A030117DF063B00BCAFF2 /* MathKeyboard_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 803A030017DF063B00BCAFF2 /* MathKeyboard_iPad.m */; };
+		803A030217DF063B00BCAFF2 /* MathKeyboard_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 803A030017DF063B00BCAFF2 /* MathKeyboard_iPad.m */; };
+		803A030517DF065E00BCAFF2 /* MathKeyboard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 803A030417DF065E00BCAFF2 /* MathKeyboard_iPhone.m */; };
+		803A030617DF065E00BCAFF2 /* MathKeyboard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 803A030417DF065E00BCAFF2 /* MathKeyboard_iPhone.m */; };
+		803AA81C1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA81A1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png */; };
+		803AA81D1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA81A1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png */; };
+		803AA81E1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA81B1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png */; };
+		803AA81F1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA81B1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png */; };
+		803AA8231A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8201A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png */; };
+		803AA8241A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8201A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png */; };
+		803AA8251A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8211A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png */; };
+		803AA8261A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8211A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png */; };
+		803AA8271A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8221A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png */; };
+		803AA8281A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8221A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png */; };
+		803AA82A1A90E0EB00533251 /* disclosure-arrow-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8291A90E0EB00533251 /* disclosure-arrow-down@2x.png */; };
+		803AA82B1A90E0EB00533251 /* disclosure-arrow-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 803AA8291A90E0EB00533251 /* disclosure-arrow-down@2x.png */; };
+		803BBAA31A273C7B00BD6448 /* HTVC_ColorPallete.m in Sources */ = {isa = PBXBuildFile; fileRef = 803BBAA21A273C7B00BD6448 /* HTVC_ColorPallete.m */; };
+		803BBAA41A273C7B00BD6448 /* HTVC_ColorPallete.m in Sources */ = {isa = PBXBuildFile; fileRef = 803BBAA21A273C7B00BD6448 /* HTVC_ColorPallete.m */; };
+		803D46D21C91A4C90022E3BD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803D46D11C91A4C90022E3BD /* Launch Screen.storyboard */; };
+		803D46D31C91A4C90022E3BD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803D46D11C91A4C90022E3BD /* Launch Screen.storyboard */; };
+		80515BC71A348B5200A90F9C /* MathUnitInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80515BC61A348B5200A90F9C /* MathUnitInputView.m */; };
+		80515BC81A348B5200A90F9C /* MathUnitInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80515BC61A348B5200A90F9C /* MathUnitInputView.m */; };
+		80520FF118406BAA00B753DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80520FF418406BAA00B753DF /* Localizable.strings */; };
+		80520FF218406BAA00B753DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80520FF418406BAA00B753DF /* Localizable.strings */; };
+		805334DE1A1D83C400AA3982 /* HTVC_MathExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 805334DD1A1D83C400AA3982 /* HTVC_MathExpressionView.m */; };
+		805334DF1A1D83C400AA3982 /* HTVC_MathExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 805334DD1A1D83C400AA3982 /* HTVC_MathExpressionView.m */; };
+		805E0FB71815570F00D70C53 /* MathFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 805E0FB61815570F00D70C53 /* MathFloor.m */; };
+		805E0FB81815570F00D70C53 /* MathFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 805E0FB61815570F00D70C53 /* MathFloor.m */; };
+		806421C819E767BA0031F45C /* libdecNumber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E354EE19A72BFE008CB303 /* libdecNumber.a */; };
+		806421C919E767C60031F45C /* libdecNumber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E354EE19A72BFE008CB303 /* libdecNumber.a */; };
+		806421CE19E8105F0031F45C /* image-angle-input-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421CA19E8105F0031F45C /* image-angle-input-zh@2x.png */; };
+		806421CF19E8105F0031F45C /* image-angle-input-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421CA19E8105F0031F45C /* image-angle-input-zh@2x.png */; };
+		806421D019E8105F0031F45C /* image-angle-input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421CB19E8105F0031F45C /* image-angle-input@2x.png */; };
+		806421D119E8105F0031F45C /* image-angle-input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421CB19E8105F0031F45C /* image-angle-input@2x.png */; };
+		806421D819E904730031F45C /* image-angle-conversion-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421D619E904730031F45C /* image-angle-conversion-zh@2x.png */; };
+		806421D919E904730031F45C /* image-angle-conversion-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421D619E904730031F45C /* image-angle-conversion-zh@2x.png */; };
+		806421DA19E904730031F45C /* image-angle-conversion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421D719E904730031F45C /* image-angle-conversion@2x.png */; };
+		806421DB19E904730031F45C /* image-angle-conversion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421D719E904730031F45C /* image-angle-conversion@2x.png */; };
+		806421DE19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421DC19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png */; };
+		806421DF19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421DC19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png */; };
+		806421E019E90BA60031F45C /* image-angle-input~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421DD19E90BA60031F45C /* image-angle-input~iPad@2x.png */; };
+		806421E119E90BA60031F45C /* image-angle-input~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421DD19E90BA60031F45C /* image-angle-input~iPad@2x.png */; };
+		806421E419E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421E219E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png */; };
+		806421E519E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421E219E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png */; };
+		806421E619E90EEB0031F45C /* image-angle-conversion~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421E319E90EEB0031F45C /* image-angle-conversion~iPad@2x.png */; };
+		806421E719E90EEB0031F45C /* image-angle-conversion~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421E319E90EEB0031F45C /* image-angle-conversion~iPad@2x.png */; };
+		806421F819E91ED80031F45C /* image-remove-()~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F419E91ED80031F45C /* image-remove-()~iPad-zh@2x.png */; };
+		806421F919E91ED80031F45C /* image-remove-()~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F419E91ED80031F45C /* image-remove-()~iPad-zh@2x.png */; };
+		806421FA19E91ED80031F45C /* image-remove-()~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F519E91ED80031F45C /* image-remove-()~iPad@2x.png */; };
+		806421FB19E91ED80031F45C /* image-remove-()~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F519E91ED80031F45C /* image-remove-()~iPad@2x.png */; };
+		806421FC19E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F619E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png */; };
+		806421FD19E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F619E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png */; };
+		806421FE19E91ED80031F45C /* image-remove-sqrt~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F719E91ED80031F45C /* image-remove-sqrt~iPad@2x.png */; };
+		806421FF19E91ED80031F45C /* image-remove-sqrt~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806421F719E91ED80031F45C /* image-remove-sqrt~iPad@2x.png */; };
+		8064220719E927CB0031F45C /* image-remove-()@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064220619E927CB0031F45C /* image-remove-()@2x.png */; };
+		8064220819E927CB0031F45C /* image-remove-()@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064220619E927CB0031F45C /* image-remove-()@2x.png */; };
+		8064220A19E929E90031F45C /* image-remove-sqrt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064220919E929E90031F45C /* image-remove-sqrt@2x.png */; };
+		8064220B19E929E90031F45C /* image-remove-sqrt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064220919E929E90031F45C /* image-remove-sqrt@2x.png */; };
+		80779F9C190DDC2400FAA4DA /* MyDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 80779F9B190DDC2400FAA4DA /* MyDecimal.m */; };
+		80779F9D190DDC2400FAA4DA /* MyDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 80779F9B190DDC2400FAA4DA /* MyDecimal.m */; };
+		8077CFF618E3CFA800F73E10 /* MathLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8077CFF518E3CFA800F73E10 /* MathLog.m */; };
+		8077CFF718E3CFA800F73E10 /* MathLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8077CFF518E3CFA800F73E10 /* MathLog.m */; };
+		80795024161938FB00E45AEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80795023161938FB00E45AEE /* UIKit.framework */; };
+		80795026161938FB00E45AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80795025161938FB00E45AEE /* Foundation.framework */; };
+		80795028161938FB00E45AEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80795027161938FB00E45AEE /* CoreGraphics.framework */; };
+		8079502E161938FB00E45AEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8079502C161938FB00E45AEE /* InfoPlist.strings */; };
+		80795030161938FB00E45AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079502F161938FB00E45AEE /* main.m */; };
+		80795034161938FB00E45AEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795033161938FB00E45AEE /* AppDelegate.m */; };
+		8079503D161938FB00E45AEE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8079503B161938FB00E45AEE /* MainStoryboard_iPhone.storyboard */; };
+		80795040161938FB00E45AEE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079503F161938FB00E45AEE /* MainViewController.m */; };
+		807950471619395D00E45AEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807950461619395D00E45AEE /* QuartzCore.framework */; };
+		80795067161945FF00E45AEE /* MathParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079504E161945FF00E45AEE /* MathParentheses.m */; };
+		80795068161945FF00E45AEE /* MathAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795050161945FF00E45AEE /* MathAdd.m */; };
+		80795069161945FF00E45AEE /* MathDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795052161945FF00E45AEE /* MathDiv.m */; };
+		8079506A161945FF00E45AEE /* MathMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795054161945FF00E45AEE /* MathMul.m */; };
+		8079506B161945FF00E45AEE /* MathPow.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795056161945FF00E45AEE /* MathPow.m */; };
+		8079506C161945FF00E45AEE /* MathSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795058161945FF00E45AEE /* MathSub.m */; };
+		8079506E161945FF00E45AEE /* MathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079505C161945FF00E45AEE /* MathElement.m */; };
+		8079506F161945FF00E45AEE /* MathExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079505E161945FF00E45AEE /* MathExpression.m */; };
+		80795070161945FF00E45AEE /* MathExpression+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795060161945FF00E45AEE /* MathExpression+Editing.m */; };
+		80795071161945FF00E45AEE /* MathExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795062161945FF00E45AEE /* MathExpressionView.m */; };
+		80795072161945FF00E45AEE /* MathNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795064161945FF00E45AEE /* MathNumber.m */; };
+		80795073161945FF00E45AEE /* MathOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795066161945FF00E45AEE /* MathOperator.m */; };
+		807C679C1737EE6700C065E3 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C67981737EE6700C065E3 /* PreferencesViewController.m */; };
+		807C679E1737EE6700C065E3 /* TipsMasterViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C679B1737EE6700C065E3 /* TipsMasterViewController_iPhone.m */; };
+		807D68EE1760AB6E00286597 /* MathPermille.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D68ED1760AB6E00286597 /* MathPermille.m */; };
+		807D68EF1760AB6E00286597 /* MathPermille.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D68ED1760AB6E00286597 /* MathPermille.m */; };
+		807D68F11760B5AB00286597 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807D68F01760B5AB00286597 /* Security.framework */; };
+		807D68F21760B5BC00286597 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807D68F01760B5AB00286597 /* Security.framework */; };
+		807F98221727FDFC007E4B2C /* UIScrollView+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F98211727FDFC007E4B2C /* UIScrollView+MyAdditions.m */; };
+		80808617171438B600B341B0 /* MathConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 80808616171438B500B341B0 /* MathConstant.m */; };
+		8080861A17143C2000B341B0 /* MathLog2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080861917143C2000B341B0 /* MathLog2.m */; };
+		8080861D17143F7700B341B0 /* MathLog10.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080861C17143F7700B341B0 /* MathLog10.m */; };
+		8080862017143FE600B341B0 /* MathLn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080861F17143FE600B341B0 /* MathLn.m */; };
+		808086261714407200B341B0 /* MathCos.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086251714407200B341B0 /* MathCos.m */; };
+		808086291714408900B341B0 /* MathTan.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086281714408800B341B0 /* MathTan.m */; };
+		8080862C171440CF00B341B0 /* MathArcsin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080862B171440CF00B341B0 /* MathArcsin.m */; };
+		8080862F171440E100B341B0 /* MathArccos.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080862E171440E100B341B0 /* MathArccos.m */; };
+		80808632171440F500B341B0 /* MathArctan.m in Sources */ = {isa = PBXBuildFile; fileRef = 80808631171440F500B341B0 /* MathArctan.m */; };
+		80808635171442F100B341B0 /* MathDegree.m in Sources */ = {isa = PBXBuildFile; fileRef = 80808634171442F100B341B0 /* MathDegree.m */; };
+		808086381714433200B341B0 /* MathPercent.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086371714433000B341B0 /* MathPercent.m */; };
+		8080863B1714434800B341B0 /* MathMod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080863A1714434700B341B0 /* MathMod.m */; };
+		8080863E1714436600B341B0 /* MathFactorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080863D1714436500B341B0 /* MathFactorial.m */; };
+		8080EFD1175071DB003851C1 /* UIResponder+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080EFD0175071DB003851C1 /* UIResponder+MyAdditions.m */; };
+		8080EFD2175071DB003851C1 /* UIResponder+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080EFD0175071DB003851C1 /* UIResponder+MyAdditions.m */; };
+		80811B0E19C0361100DE62CD /* MathUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B0D19C0361100DE62CD /* MathUnit.m */; };
+		80811B0F19C0361100DE62CD /* MathUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B0D19C0361100DE62CD /* MathUnit.m */; };
+		80811B1219C08BBB00DE62CD /* MathUnitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B1119C08BBB00DE62CD /* MathUnitSet.m */; };
+		80811B1319C08BBB00DE62CD /* MathUnitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B1119C08BBB00DE62CD /* MathUnitSet.m */; };
+		80811B1719C177BB00DE62CD /* MathAngleUnitDegree.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B1619C177BB00DE62CD /* MathAngleUnitDegree.m */; };
+		80811B1819C177BB00DE62CD /* MathAngleUnitDegree.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B1619C177BB00DE62CD /* MathAngleUnitDegree.m */; };
+		80811B1B19C177DD00DE62CD /* MathAngleUnitUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B1A19C177DD00DE62CD /* MathAngleUnitUserDefault.m */; };
+		80811B1C19C177DD00DE62CD /* MathAngleUnitUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 80811B1A19C177DD00DE62CD /* MathAngleUnitUserDefault.m */; };
+		80812D541681F148008A755A /* MathSqrt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80812D531681F147008A755A /* MathSqrt.m */; };
+		80826185176D339A00DAA7BB /* MathEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 80826184176D339A00DAA7BB /* MathEnvironment.m */; };
+		80826186176D339A00DAA7BB /* MathEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 80826184176D339A00DAA7BB /* MathEnvironment.m */; };
+		80827AFD169962A5003A67C0 /* MathCompositeOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80827AFC169962A5003A67C0 /* MathCompositeOperator.m */; };
+		8082CD7D16916FEC00B0B7A7 /* MathEditableExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8082CD7C16916FEC00B0B7A7 /* MathEditableExpressionView.m */; };
+		8082E1641766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 8082E1631766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m */; };
+		8082E1651766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 8082E1631766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m */; };
+		80838B5516849E6E0013644C /* MathNeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 80838B5416849E6E0013644C /* MathNeg.m */; };
+		80838B591684B0750013644C /* MathImplicitMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 80838B581684B0750013644C /* MathImplicitMul.m */; };
+		8089C2D31744FF0400011D6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079502F161938FB00E45AEE /* main.m */; };
+		8089C2D41744FF0400011D6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795033161938FB00E45AEE /* AppDelegate.m */; };
+		8089C2D51744FF0400011D6E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079503F161938FB00E45AEE /* MainViewController.m */; };
+		8089C2D61744FF0400011D6E /* MathParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079504E161945FF00E45AEE /* MathParentheses.m */; };
+		8089C2D71744FF0400011D6E /* MathAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795050161945FF00E45AEE /* MathAdd.m */; };
+		8089C2D81744FF0400011D6E /* MathDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795052161945FF00E45AEE /* MathDiv.m */; };
+		8089C2D91744FF0400011D6E /* MathMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795054161945FF00E45AEE /* MathMul.m */; };
+		8089C2DA1744FF0400011D6E /* MathPow.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795056161945FF00E45AEE /* MathPow.m */; };
+		8089C2DB1744FF0400011D6E /* MathSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795058161945FF00E45AEE /* MathSub.m */; };
+		8089C2DC1744FF0400011D6E /* MathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079505C161945FF00E45AEE /* MathElement.m */; };
+		8089C2DD1744FF0400011D6E /* MathExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079505E161945FF00E45AEE /* MathExpression.m */; };
+		8089C2DE1744FF0400011D6E /* MathExpression+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795060161945FF00E45AEE /* MathExpression+Editing.m */; };
+		8089C2DF1744FF0400011D6E /* MathExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795062161945FF00E45AEE /* MathExpressionView.m */; };
+		8089C2E01744FF0400011D6E /* MathNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795064161945FF00E45AEE /* MathNumber.m */; };
+		8089C2E11744FF0400011D6E /* MathOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80795066161945FF00E45AEE /* MathOperator.m */; };
+		8089C2E31744FF0400011D6E /* MathSqrt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80812D531681F147008A755A /* MathSqrt.m */; };
+		8089C2E41744FF0400011D6E /* MathNeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 80838B5416849E6E0013644C /* MathNeg.m */; };
+		8089C2E51744FF0400011D6E /* MathImplicitMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 80838B581684B0750013644C /* MathImplicitMul.m */; };
+		8089C2E61744FF0400011D6E /* MathEditableExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8082CD7C16916FEC00B0B7A7 /* MathEditableExpressionView.m */; };
+		8089C2E71744FF0400011D6E /* MathCompositeOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80827AFC169962A5003A67C0 /* MathCompositeOperator.m */; };
+		8089C2E81744FF0400011D6E /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B8BB90169C426F00354436 /* HistoryTableViewCell.m */; };
+		8089C2EA1744FF0400011D6E /* MathConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 80808616171438B500B341B0 /* MathConstant.m */; };
+		8089C2EB1744FF0400011D6E /* MathLog2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080861917143C2000B341B0 /* MathLog2.m */; };
+		8089C2EC1744FF0400011D6E /* MathLog10.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080861C17143F7700B341B0 /* MathLog10.m */; };
+		8089C2ED1744FF0400011D6E /* MathLn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080861F17143FE600B341B0 /* MathLn.m */; };
+		8089C2EF1744FF0400011D6E /* MathCos.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086251714407200B341B0 /* MathCos.m */; };
+		8089C2F01744FF0400011D6E /* MathTan.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086281714408800B341B0 /* MathTan.m */; };
+		8089C2F11744FF0400011D6E /* MathArcsin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080862B171440CF00B341B0 /* MathArcsin.m */; };
+		8089C2F21744FF0400011D6E /* MathArccos.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080862E171440E100B341B0 /* MathArccos.m */; };
+		8089C2F31744FF0400011D6E /* MathArctan.m in Sources */ = {isa = PBXBuildFile; fileRef = 80808631171440F500B341B0 /* MathArctan.m */; };
+		8089C2F41744FF0400011D6E /* MathDegree.m in Sources */ = {isa = PBXBuildFile; fileRef = 80808634171442F100B341B0 /* MathDegree.m */; };
+		8089C2F51744FF0400011D6E /* MathPercent.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086371714433000B341B0 /* MathPercent.m */; };
+		8089C2F61744FF0400011D6E /* MathMod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080863A1714434700B341B0 /* MathMod.m */; };
+		8089C2F71744FF0400011D6E /* MathFactorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080863D1714436500B341B0 /* MathFactorial.m */; };
+		8089C2FC1744FF0400011D6E /* UIScrollView+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F98211727FDFC007E4B2C /* UIScrollView+MyAdditions.m */; };
+		8089C3031744FF0400011D6E /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C67981737EE6700C065E3 /* PreferencesViewController.m */; };
+		8089C3041744FF0400011D6E /* TipsMasterViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C679B1737EE6700C065E3 /* TipsMasterViewController_iPhone.m */; };
+		8089C3071744FF0400011D6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80795023161938FB00E45AEE /* UIKit.framework */; };
+		8089C3081744FF0400011D6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80795025161938FB00E45AEE /* Foundation.framework */; };
+		8089C3091744FF0400011D6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80795027161938FB00E45AEE /* CoreGraphics.framework */; };
+		8089C30B1744FF0400011D6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8079502C161938FB00E45AEE /* InfoPlist.strings */; };
+		8089C30C1744FF0400011D6E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8079503B161938FB00E45AEE /* MainStoryboard_iPhone.storyboard */; };
+		808B03451762F83000C10027 /* MathCombination.m in Sources */ = {isa = PBXBuildFile; fileRef = 808B03441762F83000C10027 /* MathCombination.m */; };
+		808B03461762F83000C10027 /* MathCombination.m in Sources */ = {isa = PBXBuildFile; fileRef = 808B03441762F83000C10027 /* MathCombination.m */; };
+		808F4C2D18E900C400356E2A /* MathRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 808F4C2C18E900C400356E2A /* MathRoot.m */; };
+		808F4C2E18E900C400356E2A /* MathRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 808F4C2C18E900C400356E2A /* MathRoot.m */; };
+		809D28B61991F81E00FD2B03 /* UIView+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809D28B51991F81E00FD2B03 /* UIView+MyAdditions.m */; };
+		809D28B71991F81E00FD2B03 /* UIView+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809D28B51991F81E00FD2B03 /* UIView+MyAdditions.m */; };
+		809F6886194AF3B200B5F5A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F38441937167800835AED /* CoreData.framework */; };
+		809F6891194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F6890194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m */; };
+		809F6892194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F6890194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m */; };
+		80A0135C17A69EB500E51174 /* TipsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0135B17A69EB400E51174 /* TipsDetailViewController.m */; };
+		80A0135D17A69EB500E51174 /* TipsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0135B17A69EB400E51174 /* TipsDetailViewController.m */; };
+		80A539F4198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A539F3198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m */; };
+		80A539F5198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A539F3198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m */; };
+		80AB8DBC17D5BE4B00C49A60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AB8DBB17D5BE4B00C49A60 /* Images.xcassets */; };
+		80B29CD017C1FBA100710D4C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EEF69717B8877400347A61 /* MainStoryboard_iPad.storyboard */; };
+		80B29CD117C1FBBF00710D4C /* TipsViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BCF7D8179AD4D80076C255 /* TipsViewController_iPad.m */; };
+		80B29CD217C1FBC500710D4C /* TipsMasterViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BCF7E4179BBCA40076C255 /* TipsMasterViewController_iPad.m */; };
+		80B3BA0E18F29B63001F9479 /* MathSin.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086221714405300B341B0 /* MathSin.m */; };
+		80B3BA0F18F29B64001F9479 /* MathSin.m in Sources */ = {isa = PBXBuildFile; fileRef = 808086221714405300B341B0 /* MathSin.m */; };
+		80B444AB183A45FC00DA6DA8 /* MathCeil.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444AA183A45FC00DA6DA8 /* MathCeil.m */; };
+		80B444AC183A45FC00DA6DA8 /* MathCeil.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444AA183A45FC00DA6DA8 /* MathCeil.m */; };
+		80B444C1183A4C2600DA6DA8 /* MathAbs.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444C0183A4C2600DA6DA8 /* MathAbs.m */; };
+		80B444C2183A4C2600DA6DA8 /* MathAbs.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444C0183A4C2600DA6DA8 /* MathAbs.m */; };
+		80B444D7183B40E100DA6DA8 /* MathSinh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444D6183B40E100DA6DA8 /* MathSinh.m */; };
+		80B444D8183B40E100DA6DA8 /* MathSinh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444D6183B40E100DA6DA8 /* MathSinh.m */; };
+		80B444DB183B42E400DA6DA8 /* MathCosh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444DA183B42E400DA6DA8 /* MathCosh.m */; };
+		80B444DC183B42E400DA6DA8 /* MathCosh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444DA183B42E400DA6DA8 /* MathCosh.m */; };
+		80B444DF183B42FF00DA6DA8 /* MathTanh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444DE183B42FF00DA6DA8 /* MathTanh.m */; };
+		80B444E0183B42FF00DA6DA8 /* MathTanh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444DE183B42FF00DA6DA8 /* MathTanh.m */; };
+		80B444E3183B443100DA6DA8 /* MathArcsinh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444E2183B443100DA6DA8 /* MathArcsinh.m */; };
+		80B444E4183B443100DA6DA8 /* MathArcsinh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444E2183B443100DA6DA8 /* MathArcsinh.m */; };
+		80B444E7183B56C100DA6DA8 /* MathArccosh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444E6183B56C100DA6DA8 /* MathArccosh.m */; };
+		80B444E8183B56C100DA6DA8 /* MathArccosh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444E6183B56C100DA6DA8 /* MathArccosh.m */; };
+		80B444EB183B594D00DA6DA8 /* MathArctanh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444EA183B594D00DA6DA8 /* MathArctanh.m */; };
+		80B444EC183B594D00DA6DA8 /* MathArctanh.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B444EA183B594D00DA6DA8 /* MathArctanh.m */; };
+		80B44580183DDAE600DA6DA8 /* tip5.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B44583183DDAE600DA6DA8 /* tip5.html */; };
+		80B44581183DDAE600DA6DA8 /* tip5.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B44583183DDAE600DA6DA8 /* tip5.html */; };
+		80B445AB183F4CA000DA6DA8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B445AA183F4CA000DA6DA8 /* MessageUI.framework */; };
+		80B445AC183F4CB100DA6DA8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B445AA183F4CA000DA6DA8 /* MessageUI.framework */; };
+		80B6287117B8DCFB00ABC115 /* tip0.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6287417B8DCFB00ABC115 /* tip0.html */; };
+		80B6287217B8DCFB00ABC115 /* tip0.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6287417B8DCFB00ABC115 /* tip0.html */; };
+		80B6287617B90DAA00ABC115 /* tip1.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6287917B90DAA00ABC115 /* tip1.html */; };
+		80B6287717B90DAA00ABC115 /* tip1.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6287917B90DAA00ABC115 /* tip1.html */; };
+		80B6288117B921A400ABC115 /* tips.css in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288017B921A300ABC115 /* tips.css */; };
+		80B6288217B921E500ABC115 /* tip2.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288517B921E500ABC115 /* tip2.html */; };
+		80B6288317B921E500ABC115 /* tip2.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288517B921E500ABC115 /* tip2.html */; };
+		80B6288717B9223F00ABC115 /* tip3.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288A17B9223F00ABC115 /* tip3.html */; };
+		80B6288817B9223F00ABC115 /* tip3.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288A17B9223F00ABC115 /* tip3.html */; };
+		80B6288C17B9229A00ABC115 /* tip4.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288F17B9229A00ABC115 /* tip4.html */; };
+		80B6288D17B9229A00ABC115 /* tip4.html in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288F17B9229A00ABC115 /* tip4.html */; };
+		80B6289117B9DC1300ABC115 /* tips.css in Resources */ = {isa = PBXBuildFile; fileRef = 80B6288017B921A300ABC115 /* tips.css */; };
+		80B750A41A528172008915FC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B750A11A528172008915FC /* Model.xcdatamodeld */; };
+		80B750A51A528172008915FC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B750A11A528172008915FC /* Model.xcdatamodeld */; };
+		80B750A81A553A0C008915FC /* FTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B750A71A553A0C008915FC /* FTTableView.m */; };
+		80B750A91A553A0C008915FC /* FTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B750A71A553A0C008915FC /* FTTableView.m */; };
+		80B750AC1A553BB5008915FC /* UITableView+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B750AB1A553BB5008915FC /* UITableView+MyAdditions.m */; };
+		80B750AD1A553BB5008915FC /* UITableView+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B750AB1A553BB5008915FC /* UITableView+MyAdditions.m */; };
+		80B8BB91169C426F00354436 /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B8BB90169C426F00354436 /* HistoryTableViewCell.m */; };
+		80BCF7DA179AD4D90076C255 /* TipsViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BCF7D8179AD4D80076C255 /* TipsViewController_iPad.m */; };
+		80BCF7E6179BBCA50076C255 /* TipsMasterViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BCF7E4179BBCA40076C255 /* TipsMasterViewController_iPad.m */; };
+		80DB62271A75E7C500C1E867 /* HistorySectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB62261A75E7C500C1E867 /* HistorySectionHeader.m */; };
+		80DB62281A75E7C500C1E867 /* HistorySectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB62261A75E7C500C1E867 /* HistorySectionHeader.m */; };
+		80E3558119BEF3BA008CB303 /* MathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3558019BEF3BA008CB303 /* MathResult.m */; };
+		80E3558219BEF3BA008CB303 /* MathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3558019BEF3BA008CB303 /* MathResult.m */; };
+		80E5390B182C7C6B00831AA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807950461619395D00E45AEE /* QuartzCore.framework */; };
+		80E5394718309C2D00831AA6 /* MathPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E5394618309C2D00831AA6 /* MathPos.m */; };
+		80E5394818309C2D00831AA6 /* MathPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E5394618309C2D00831AA6 /* MathPos.m */; };
+		80EDDE79196A6B1700B61F13 /* HistorySheetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EDDE78196A6B1700B61F13 /* HistorySheetsViewController.m */; };
+		80EDDE7A196A6B1700B61F13 /* HistorySheetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EDDE78196A6B1700B61F13 /* HistorySheetsViewController.m */; };
+		80EEF69517B8877400347A61 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EEF69717B8877400347A61 /* MainStoryboard_iPad.storyboard */; };
+		80FE966D18B33EA300565F21 /* MathCbrt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE966C18B33EA300565F21 /* MathCbrt.m */; };
+		80FE966E18B33EA300565F21 /* MathCbrt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE966C18B33EA300565F21 /* MathCbrt.m */; };
+		80FE96B718B48D3400565F21 /* image-key-()-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FE96B418B48D3400565F21 /* image-key-()-18@2x.png */; };
+		80FE96B818B48D3400565F21 /* image-key-()-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FE96B418B48D3400565F21 /* image-key-()-18@2x.png */; };
+		80FE96BB18B48D3400565F21 /* image-key-sqrt-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FE96B618B48D3400565F21 /* image-key-sqrt-18@2x.png */; };
+		80FE96BC18B48D3400565F21 /* image-key-sqrt-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FE96B618B48D3400565F21 /* image-key-sqrt-18@2x.png */; };
+		80FE974618B7424900565F21 /* image-key-return-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FE974518B7424900565F21 /* image-key-return-18@2x.png */; };
+		80FE974718B7424900565F21 /* image-key-return-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FE974518B7424900565F21 /* image-key-return-18@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80E354ED19A72BFE008CB303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E354E819A72BFE008CB303 /* decNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 801A742C190D3C6500C37D00;
+			remoteInfo = decNumber;
+		};
+		80E354EF19A72BFE008CB303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E354E819A72BFE008CB303 /* decNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 801A743C190D3C6500C37D00;
+			remoteInfo = decNumberTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8001B6F918AB9F0E0033D779 /* glyph-sqrt-18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyph-sqrt-18@2x.png"; sourceTree = "<group>"; };
+		800D7C291A1F64330075C1BC /* HTVC_TagEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVC_TagEditor.h; sourceTree = "<group>"; };
+		800D7C2A1A1F64330075C1BC /* HTVC_TagEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HTVC_TagEditor.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		801B8A5D196A8EA500F2FE92 /* HistorySheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistorySheet.h; sourceTree = "<group>"; };
+		801B8A5E196A8EA500F2FE92 /* HistorySheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistorySheet.m; sourceTree = "<group>"; };
+		801DD77D1A26B79700D565FE /* FTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUtils.h; sourceTree = "<group>"; };
+		801DD77E1A26B79700D565FE /* FTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTUtils.m; sourceTree = "<group>"; };
+		801F38441937167800835AED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		801F3862193A145200835AED /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		801F3863193A145200835AED /* Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symbol.m; sourceTree = "<group>"; };
+		801F386A193A145300835AED /* ConstantRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantRecord.h; sourceTree = "<group>"; };
+		801F386B193A145300835AED /* ConstantRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantRecord.m; sourceTree = "<group>"; };
+		801F386E193A145300835AED /* ConstantSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantSheet.h; sourceTree = "<group>"; };
+		801F386F193A145300835AED /* ConstantSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantSheet.m; sourceTree = "<group>"; };
+		801F3876193A145300835AED /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		801F3877193A145300835AED /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		801F387A193A18EB00835AED /* HistoryRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRecord.h; sourceTree = "<group>"; };
+		801F387B193A18EB00835AED /* HistoryRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryRecord.m; sourceTree = "<group>"; };
+		801F387E193EF50F00835AED /* Sheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sheet.h; sourceTree = "<group>"; };
+		801F387F193EF50F00835AED /* Sheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sheet.m; sourceTree = "<group>"; };
+		802285FD19E16F98003689F5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8022860219E25A15003689F5 /* ViewControllerDropAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDropAnimator.h; sourceTree = "<group>"; };
+		8022860319E25A16003689F5 /* ViewControllerDropAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDropAnimator.m; sourceTree = "<group>"; };
+		8024BC9C1A44639E001859D5 /* CALayer+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MyAdditions.h"; sourceTree = "<group>"; };
+		8024BC9D1A44639E001859D5 /* CALayer+MyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MyAdditions.m"; sourceTree = "<group>"; };
+		802D6DE9181A15F40038C660 /* MathFraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathFraction.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		802D6DEA181A15F40038C660 /* MathFraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathFraction.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		802F07AA1A3ADAF4000FD6D9 /* FTPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPopoverView.h; sourceTree = "<group>"; };
+		802F07AB1A3ADAF4000FD6D9 /* FTPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPopoverView.m; sourceTree = "<group>"; };
+		802F07AE1A3B1F69000FD6D9 /* FTKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTKit.h; sourceTree = "<group>"; };
+		802F07B01A3B276C000FD6D9 /* FTBarLens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBarLens.h; sourceTree = "<group>"; };
+		802F07B11A3B276C000FD6D9 /* FTBarLens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBarLens.m; sourceTree = "<group>"; };
+		802F07B21A3B276C000FD6D9 /* FTCaret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCaret.h; sourceTree = "<group>"; };
+		802F07B31A3B276C000FD6D9 /* FTCaret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCaret.m; sourceTree = "<group>"; };
+		802F07B41A3B276C000FD6D9 /* FTInputSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTInputSystem.h; sourceTree = "<group>"; };
+		802F07B51A3B276C000FD6D9 /* FTInputSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTInputSystem.m; sourceTree = "<group>"; };
+		802F07B61A3B276C000FD6D9 /* FTLoupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTLoupe.h; sourceTree = "<group>"; };
+		802F07B71A3B276C000FD6D9 /* FTLoupe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTLoupe.m; sourceTree = "<group>"; };
+		802F07B81A3B276C000FD6D9 /* FTSelectionSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSelectionSuite.h; sourceTree = "<group>"; };
+		802F07B91A3B276C000FD6D9 /* FTSelectionSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSelectionSuite.m; sourceTree = "<group>"; };
+		802F07BA1A3B276C000FD6D9 /* FTSelectionHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSelectionHandle.h; sourceTree = "<group>"; };
+		802F07BB1A3B276C000FD6D9 /* FTSelectionHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FTSelectionHandle.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		802F07BC1A3B276C000FD6D9 /* FTTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTopWindow.h; sourceTree = "<group>"; };
+		802F07BD1A3B276C000FD6D9 /* FTTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTopWindow.m; sourceTree = "<group>"; };
+		802F07BE1A3B276C000FD6D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		802F3F921A22CB7D0079D436 /* HTVC_Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVC_Tag.h; sourceTree = "<group>"; };
+		802F3F931A22CB7D0079D436 /* HTVC_Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HTVC_Tag.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80317E5618AA65EB001E1319 /* iCalculator Lite-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iCalculator Lite-Info.plist"; sourceTree = "<group>"; };
+		8039C9E61A7F522D00978B3F /* FTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextField.h; sourceTree = "<group>"; };
+		8039C9E71A7F522D00978B3F /* FTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTextField.m; sourceTree = "<group>"; };
+		8039C9EC1A89941C00978B3F /* FTApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTApplication.h; sourceTree = "<group>"; };
+		8039C9ED1A89941C00978B3F /* FTApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTApplication.m; sourceTree = "<group>"; };
+		8039C9F41A8B983300978B3F /* FTTextFieldSurrogate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextFieldSurrogate.h; sourceTree = "<group>"; };
+		8039C9F51A8B983300978B3F /* FTTextFieldSurrogate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTextFieldSurrogate.m; sourceTree = "<group>"; };
+		803A02FF17DF063B00BCAFF2 /* MathKeyboard_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathKeyboard_iPad.h; sourceTree = "<group>"; };
+		803A030017DF063B00BCAFF2 /* MathKeyboard_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathKeyboard_iPad.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		803A030317DF065E00BCAFF2 /* MathKeyboard_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathKeyboard_iPhone.h; sourceTree = "<group>"; };
+		803A030417DF065E00BCAFF2 /* MathKeyboard_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathKeyboard_iPhone.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		803A030717DFF4CE00BCAFF2 /* MathKeyboard_Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathKeyboard_Subclass.h; sourceTree = "<group>"; };
+		803A030B17DFF67D00BCAFF2 /* MathKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathKeyboard.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		803AA81A1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-flyout-keypad-from-div@2x.png"; sourceTree = "<group>"; };
+		803AA81B1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-flyout-keypad-from-sqrt@2x.png"; sourceTree = "<group>"; };
+		803AA8201A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-flyout-keypad-from-div~iPad-zh@2x.png"; sourceTree = "<group>"; };
+		803AA8211A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-flyout-keypad-from-div~iPad@2x.png"; sourceTree = "<group>"; };
+		803AA8221A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-flyout-keypad-from-sqrt~iPad@2x.png"; sourceTree = "<group>"; };
+		803AA8291A90E0EB00533251 /* disclosure-arrow-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclosure-arrow-down@2x.png"; sourceTree = "<group>"; };
+		803BBAA11A273C7B00BD6448 /* HTVC_ColorPallete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVC_ColorPallete.h; sourceTree = "<group>"; };
+		803BBAA21A273C7B00BD6448 /* HTVC_ColorPallete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTVC_ColorPallete.m; sourceTree = "<group>"; };
+		803D46D11C91A4C90022E3BD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		80515BC51A348B5200A90F9C /* MathUnitInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUnitInputView.h; sourceTree = "<group>"; };
+		80515BC61A348B5200A90F9C /* MathUnitInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathUnitInputView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80520FF318406BAA00B753DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		80520FF518406BF700B753DF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		805334DC1A1D83C400AA3982 /* HTVC_MathExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVC_MathExpressionView.h; sourceTree = "<group>"; };
+		805334DD1A1D83C400AA3982 /* HTVC_MathExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTVC_MathExpressionView.m; sourceTree = "<group>"; };
+		805E0FB51815570F00D70C53 /* MathFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathFloor.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		805E0FB61815570F00D70C53 /* MathFloor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathFloor.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		806421CA19E8105F0031F45C /* image-angle-input-zh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-input-zh@2x.png"; sourceTree = "<group>"; };
+		806421CB19E8105F0031F45C /* image-angle-input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-input@2x.png"; sourceTree = "<group>"; };
+		806421D619E904730031F45C /* image-angle-conversion-zh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-conversion-zh@2x.png"; sourceTree = "<group>"; };
+		806421D719E904730031F45C /* image-angle-conversion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-conversion@2x.png"; sourceTree = "<group>"; };
+		806421DC19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-input~iPad-zh@2x.png"; sourceTree = "<group>"; };
+		806421DD19E90BA60031F45C /* image-angle-input~iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-input~iPad@2x.png"; sourceTree = "<group>"; };
+		806421E219E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-conversion~iPad-zh@2x.png"; sourceTree = "<group>"; };
+		806421E319E90EEB0031F45C /* image-angle-conversion~iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-angle-conversion~iPad@2x.png"; sourceTree = "<group>"; };
+		806421F419E91ED80031F45C /* image-remove-()~iPad-zh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-remove-()~iPad-zh@2x.png"; sourceTree = "<group>"; };
+		806421F519E91ED80031F45C /* image-remove-()~iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-remove-()~iPad@2x.png"; sourceTree = "<group>"; };
+		806421F619E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-remove-sqrt~iPad-zh@2x.png"; sourceTree = "<group>"; };
+		806421F719E91ED80031F45C /* image-remove-sqrt~iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-remove-sqrt~iPad@2x.png"; sourceTree = "<group>"; };
+		8064220619E927CB0031F45C /* image-remove-()@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-remove-()@2x.png"; sourceTree = "<group>"; };
+		8064220919E929E90031F45C /* image-remove-sqrt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-remove-sqrt@2x.png"; sourceTree = "<group>"; };
+		80779F9A190DDC2400FAA4DA /* MyDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDecimal.h; path = "My Decimal/MyDecimal.h"; sourceTree = "<group>"; };
+		80779F9B190DDC2400FAA4DA /* MyDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDecimal.m; path = "My Decimal/MyDecimal.m"; sourceTree = "<group>"; };
+		8077CFF418E3CFA800F73E10 /* MathLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathLog.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8077CFF518E3CFA800F73E10 /* MathLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathLog.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8079501F161938FB00E45AEE /* iCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80795023161938FB00E45AEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80795025161938FB00E45AEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80795027161938FB00E45AEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8079502F161938FB00E45AEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80795031161938FB00E45AEE /* iCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		80795032161938FB00E45AEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80795033161938FB00E45AEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8079503E161938FB00E45AEE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8079503F161938FB00E45AEE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		807950461619395D00E45AEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8079504D161945FF00E45AEE /* MathParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathParentheses.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8079504E161945FF00E45AEE /* MathParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathParentheses.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8079504F161945FF00E45AEE /* MathAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathAdd.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80795050161945FF00E45AEE /* MathAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathAdd.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80795051161945FF00E45AEE /* MathDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathDiv.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80795052161945FF00E45AEE /* MathDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathDiv.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80795053161945FF00E45AEE /* MathMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathMul.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80795054161945FF00E45AEE /* MathMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathMul.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80795055161945FF00E45AEE /* MathPow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathPow.h; sourceTree = "<group>"; };
+		80795056161945FF00E45AEE /* MathPow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathPow.m; sourceTree = "<group>"; };
+		80795057161945FF00E45AEE /* MathSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathSub.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80795058161945FF00E45AEE /* MathSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathSub.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8079505B161945FF00E45AEE /* MathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathElement.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8079505C161945FF00E45AEE /* MathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathElement.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8079505D161945FF00E45AEE /* MathExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathExpression.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8079505E161945FF00E45AEE /* MathExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathExpression.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8079505F161945FF00E45AEE /* MathExpression+Editing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MathExpression+Editing.h"; sourceTree = "<group>"; };
+		80795060161945FF00E45AEE /* MathExpression+Editing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "MathExpression+Editing.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80795061161945FF00E45AEE /* MathExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathExpressionView.h; sourceTree = "<group>"; };
+		80795062161945FF00E45AEE /* MathExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathExpressionView.m; sourceTree = "<group>"; };
+		80795063161945FF00E45AEE /* MathNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathNumber.h; sourceTree = "<group>"; };
+		80795064161945FF00E45AEE /* MathNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathNumber.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80795065161945FF00E45AEE /* MathOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathOperator.h; sourceTree = "<group>"; };
+		80795066161945FF00E45AEE /* MathOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathOperator.m; sourceTree = "<group>"; };
+		807B1979185209B1004D7C1C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainStoryboard_iPad.strings"; sourceTree = "<group>"; };
+		807B197B18520ADB004D7C1C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainStoryboard_iPhone.strings"; sourceTree = "<group>"; };
+		807C67971737EE6700C065E3 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		807C67981737EE6700C065E3 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		807C679A1737EE6700C065E3 /* TipsMasterViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsMasterViewController_iPhone.h; sourceTree = "<group>"; };
+		807C679B1737EE6700C065E3 /* TipsMasterViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsMasterViewController_iPhone.m; sourceTree = "<group>"; };
+		807D68EC1760AB6E00286597 /* MathPermille.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathPermille.h; sourceTree = "<group>"; };
+		807D68ED1760AB6E00286597 /* MathPermille.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathPermille.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		807D68F01760B5AB00286597 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		807E966417467DBB00B60E42 /* MathConcreteOperators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathConcreteOperators.h; sourceTree = "<group>"; };
+		807F981D1727FDFC007E4B2C /* CGGeometry+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+MyAdditions.h"; sourceTree = "<group>"; };
+		807F981E1727FDFC007E4B2C /* MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAdditions.h; sourceTree = "<group>"; };
+		807F981F1727FDFC007E4B2C /* UIGeometry+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGeometry+MyAdditions.h"; sourceTree = "<group>"; };
+		807F98201727FDFC007E4B2C /* UIScrollView+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MyAdditions.h"; sourceTree = "<group>"; };
+		807F98211727FDFC007E4B2C /* UIScrollView+MyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MyAdditions.m"; sourceTree = "<group>"; };
+		80808615171438B500B341B0 /* MathConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MathConstant.h; path = ../MathConstant.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80808616171438B500B341B0 /* MathConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MathConstant.m; path = ../MathConstant.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8080861817143C2000B341B0 /* MathLog2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathLog2.h; sourceTree = "<group>"; };
+		8080861917143C2000B341B0 /* MathLog2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathLog2.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8080861B17143F7700B341B0 /* MathLog10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathLog10.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8080861C17143F7700B341B0 /* MathLog10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathLog10.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8080861E17143FE600B341B0 /* MathLn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathLn.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8080861F17143FE600B341B0 /* MathLn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathLn.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		808086211714405300B341B0 /* MathSin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathSin.h; sourceTree = "<group>"; };
+		808086221714405300B341B0 /* MathSin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSin.m; sourceTree = "<group>"; };
+		808086241714407200B341B0 /* MathCos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathCos.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		808086251714407200B341B0 /* MathCos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathCos.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		808086271714408800B341B0 /* MathTan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTan.h; sourceTree = "<group>"; };
+		808086281714408800B341B0 /* MathTan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathTan.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8080862A171440CE00B341B0 /* MathArcsin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathArcsin.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8080862B171440CF00B341B0 /* MathArcsin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathArcsin.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8080862D171440E100B341B0 /* MathArccos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathArccos.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8080862E171440E100B341B0 /* MathArccos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathArccos.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80808630171440F400B341B0 /* MathArctan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathArctan.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80808631171440F500B341B0 /* MathArctan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathArctan.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80808633171442F000B341B0 /* MathDegree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathDegree.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80808634171442F100B341B0 /* MathDegree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathDegree.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		808086361714433000B341B0 /* MathPercent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathPercent.h; sourceTree = "<group>"; };
+		808086371714433000B341B0 /* MathPercent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathPercent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		808086391714434600B341B0 /* MathMod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathMod.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8080863A1714434700B341B0 /* MathMod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathMod.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8080863C1714436400B341B0 /* MathFactorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathFactorial.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8080863D1714436500B341B0 /* MathFactorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathFactorial.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8080EFCF175071DB003851C1 /* UIResponder+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+MyAdditions.h"; sourceTree = "<group>"; };
+		8080EFD0175071DB003851C1 /* UIResponder+MyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+MyAdditions.m"; sourceTree = "<group>"; };
+		80811B0C19C0361100DE62CD /* MathUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUnit.h; sourceTree = "<group>"; };
+		80811B0D19C0361100DE62CD /* MathUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUnit.m; sourceTree = "<group>"; };
+		80811B1019C08BBB00DE62CD /* MathUnitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUnitSet.h; sourceTree = "<group>"; };
+		80811B1119C08BBB00DE62CD /* MathUnitSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUnitSet.m; sourceTree = "<group>"; };
+		80811B1519C177BB00DE62CD /* MathAngleUnitDegree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathAngleUnitDegree.h; sourceTree = "<group>"; };
+		80811B1619C177BB00DE62CD /* MathAngleUnitDegree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathAngleUnitDegree.m; sourceTree = "<group>"; };
+		80811B1919C177DD00DE62CD /* MathAngleUnitUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathAngleUnitUserDefault.h; sourceTree = "<group>"; };
+		80811B1A19C177DD00DE62CD /* MathAngleUnitUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathAngleUnitUserDefault.m; sourceTree = "<group>"; };
+		80812D521681F147008A755A /* MathSqrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathSqrt.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80812D531681F147008A755A /* MathSqrt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathSqrt.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80826183176D339A00DAA7BB /* MathEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathEnvironment.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80826184176D339A00DAA7BB /* MathEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathEnvironment.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80827AFB169962A5003A67C0 /* MathCompositeOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathCompositeOperator.h; sourceTree = "<group>"; };
+		80827AFC169962A5003A67C0 /* MathCompositeOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathCompositeOperator.m; sourceTree = "<group>"; };
+		8082CD7B16916FEC00B0B7A7 /* MathEditableExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathEditableExpressionView.h; sourceTree = "<group>"; };
+		8082CD7C16916FEC00B0B7A7 /* MathEditableExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathEditableExpressionView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8082E1621766C4A500FDF0A5 /* UITabBarController_PortraitOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITabBarController_PortraitOnly.h; sourceTree = "<group>"; };
+		8082E1631766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITabBarController_PortraitOnly.m; sourceTree = "<group>"; };
+		80838B5316849E6E0013644C /* MathNeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathNeg.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80838B5416849E6E0013644C /* MathNeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathNeg.m; sourceTree = "<group>"; };
+		80838B571684B0750013644C /* MathImplicitMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathImplicitMul.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80838B581684B0750013644C /* MathImplicitMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathImplicitMul.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8089C3451744FF0400011D6E /* iCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8089C3471745059E00011D6E /* iCalculator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iCalculator-Info.plist"; sourceTree = "<group>"; };
+		808B03431762F83000C10027 /* MathCombination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathCombination.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		808B03441762F83000C10027 /* MathCombination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathCombination.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		808CB2501762AD460015ED33 /* MathPermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathPermutation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		808CB2511762AD460015ED33 /* MathPermutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathPermutation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		808F4C2B18E900C400356E2A /* MathRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathRoot.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		808F4C2C18E900C400356E2A /* MathRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathRoot.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		809D28B41991F81E00FD2B03 /* UIView+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyAdditions.h"; sourceTree = "<group>"; };
+		809D28B51991F81E00FD2B03 /* UIView+MyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyAdditions.m"; sourceTree = "<group>"; };
+		809F688F194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathExpressionToNSDataTransformer.h; sourceTree = "<group>"; };
+		809F6890194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathExpressionToNSDataTransformer.m; sourceTree = "<group>"; };
+		80A0135A17A69EB400E51174 /* TipsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsDetailViewController.h; sourceTree = "<group>"; };
+		80A0135B17A69EB400E51174 /* TipsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsDetailViewController.m; sourceTree = "<group>"; };
+		80A539EB1989D1DB00F1B196 /* NSObjCRuntime+MyAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObjCRuntime+MyAdditions.h"; sourceTree = "<group>"; };
+		80A539F2198B3D3B00F1B196 /* UINavigationController_PortraitOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationController_PortraitOnly.h; sourceTree = "<group>"; };
+		80A539F3198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationController_PortraitOnly.m; sourceTree = "<group>"; };
+		80AB8DBB17D5BE4B00C49A60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80B444A9183A45FC00DA6DA8 /* MathCeil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathCeil.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80B444AA183A45FC00DA6DA8 /* MathCeil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathCeil.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80B444BF183A4C2600DA6DA8 /* MathAbs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathAbs.h; sourceTree = "<group>"; };
+		80B444C0183A4C2600DA6DA8 /* MathAbs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathAbs.m; sourceTree = "<group>"; };
+		80B444D5183B40E100DA6DA8 /* MathSinh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathSinh.h; sourceTree = "<group>"; };
+		80B444D6183B40E100DA6DA8 /* MathSinh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSinh.m; sourceTree = "<group>"; };
+		80B444D9183B42E400DA6DA8 /* MathCosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathCosh.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80B444DA183B42E400DA6DA8 /* MathCosh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathCosh.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80B444DD183B42FF00DA6DA8 /* MathTanh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTanh.h; sourceTree = "<group>"; };
+		80B444DE183B42FF00DA6DA8 /* MathTanh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathTanh.m; sourceTree = "<group>"; };
+		80B444E1183B443100DA6DA8 /* MathArcsinh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathArcsinh.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80B444E2183B443100DA6DA8 /* MathArcsinh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathArcsinh.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80B444E5183B56C100DA6DA8 /* MathArccosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathArccosh.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80B444E6183B56C100DA6DA8 /* MathArccosh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathArccosh.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80B444E9183B594D00DA6DA8 /* MathArctanh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MathArctanh.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80B444EA183B594D00DA6DA8 /* MathArctanh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MathArctanh.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80B44582183DDAE600DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/tip5.html; sourceTree = "<group>"; };
+		80B44584183DDAEB00DA6DA8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/tip5.html"; sourceTree = "<group>"; };
+		80B44599183E333D00DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80B4459B183E340A00DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/tip0.html; sourceTree = "<group>"; };
+		80B4459C183E342D00DA6DA8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/tip0.html"; sourceTree = "<group>"; };
+		80B4459D183E348200DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/tip1.html; sourceTree = "<group>"; };
+		80B4459E183E349100DA6DA8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/tip1.html"; sourceTree = "<group>"; };
+		80B4459F183E34A900DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/tip2.html; sourceTree = "<group>"; };
+		80B445A0183E34B000DA6DA8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/tip2.html"; sourceTree = "<group>"; };
+		80B445A1183E34C400DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/tip3.html; sourceTree = "<group>"; };
+		80B445A2183E34CA00DA6DA8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/tip3.html"; sourceTree = "<group>"; };
+		80B445A3183E34E000DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/tip4.html; sourceTree = "<group>"; };
+		80B445A4183E34EA00DA6DA8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/tip4.html"; sourceTree = "<group>"; };
+		80B445AA183F4CA000DA6DA8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		80B6288017B921A300ABC115 /* tips.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tips.css; sourceTree = "<group>"; };
+		80B750A21A528172008915FC /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
+		80B750A31A528172008915FC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		80B750A61A553A0C008915FC /* FTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTableView.h; sourceTree = "<group>"; };
+		80B750A71A553A0C008915FC /* FTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTableView.m; sourceTree = "<group>"; };
+		80B750AA1A553BB5008915FC /* UITableView+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+MyAdditions.h"; sourceTree = "<group>"; };
+		80B750AB1A553BB5008915FC /* UITableView+MyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+MyAdditions.m"; sourceTree = "<group>"; };
+		80B8BB8F169C426F00354436 /* HistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		80B8BB90169C426F00354436 /* HistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HistoryTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80BCF7D7179AD4D80076C255 /* TipsViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsViewController_iPad.h; sourceTree = "<group>"; };
+		80BCF7D8179AD4D80076C255 /* TipsViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsViewController_iPad.m; sourceTree = "<group>"; };
+		80BCF7E3179BBCA40076C255 /* TipsMasterViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsMasterViewController_iPad.h; sourceTree = "<group>"; };
+		80BCF7E4179BBCA40076C255 /* TipsMasterViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsMasterViewController_iPad.m; sourceTree = "<group>"; };
+		80CEE28017B27A8100E16869 /* MathKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathKeyboard.h; sourceTree = "<group>"; };
+		80DB62251A75E7C500C1E867 /* HistorySectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistorySectionHeader.h; sourceTree = "<group>"; };
+		80DB62261A75E7C500C1E867 /* HistorySectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistorySectionHeader.m; sourceTree = "<group>"; };
+		80DB622B1A76264D00C1E867 /* Model 2-1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2-1.xcdatamodel"; sourceTree = "<group>"; };
+		80E354E819A72BFE008CB303 /* decNumber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = decNumber.xcodeproj; path = ../decNumber/decNumber.xcodeproj; sourceTree = "<group>"; };
+		80E3557F19BEF3BA008CB303 /* MathResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathResult.h; sourceTree = "<group>"; };
+		80E3558019BEF3BA008CB303 /* MathResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathResult.m; sourceTree = "<group>"; };
+		80E5394518309C2D00831AA6 /* MathPos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathPos.h; sourceTree = "<group>"; };
+		80E5394618309C2D00831AA6 /* MathPos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathPos.m; sourceTree = "<group>"; };
+		80EDDE77196A6B1700B61F13 /* HistorySheetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistorySheetsViewController.h; sourceTree = "<group>"; };
+		80EDDE78196A6B1700B61F13 /* HistorySheetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HistorySheetsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80EEF69817B8878F00347A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		80EEF69917B8878F00347A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		80FE966B18B33EA300565F21 /* MathCbrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathCbrt.h; sourceTree = "<group>"; };
+		80FE966C18B33EA300565F21 /* MathCbrt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathCbrt.m; sourceTree = "<group>"; };
+		80FE96B418B48D3400565F21 /* image-key-()-18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-key-()-18@2x.png"; sourceTree = "<group>"; };
+		80FE96B618B48D3400565F21 /* image-key-sqrt-18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-key-sqrt-18@2x.png"; sourceTree = "<group>"; };
+		80FE974518B7424900565F21 /* image-key-return-18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-key-return-18@2x.png"; sourceTree = "<group>"; };
+		80FE978118B786FA00565F21 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8079501C161938FB00E45AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806421C919E767C60031F45C /* libdecNumber.a in Frameworks */,
+				8022860119E16FA5003689F5 /* AudioToolbox.framework in Frameworks */,
+				809F6886194AF3B200B5F5A5 /* CoreData.framework in Frameworks */,
+				80B445AB183F4CA000DA6DA8 /* MessageUI.framework in Frameworks */,
+				807D68F21760B5BC00286597 /* Security.framework in Frameworks */,
+				807950471619395D00E45AEE /* QuartzCore.framework in Frameworks */,
+				80795024161938FB00E45AEE /* UIKit.framework in Frameworks */,
+				80795026161938FB00E45AEE /* Foundation.framework in Frameworks */,
+				80795028161938FB00E45AEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C3051744FF0400011D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806421C819E767BA0031F45C /* libdecNumber.a in Frameworks */,
+				802285FE19E16F98003689F5 /* AudioToolbox.framework in Frameworks */,
+				801F38451937167800835AED /* CoreData.framework in Frameworks */,
+				80B445AC183F4CB100DA6DA8 /* MessageUI.framework in Frameworks */,
+				807D68F11760B5AB00286597 /* Security.framework in Frameworks */,
+				80E5390B182C7C6B00831AA6 /* QuartzCore.framework in Frameworks */,
+				8089C3071744FF0400011D6E /* UIKit.framework in Frameworks */,
+				8089C3081744FF0400011D6E /* Foundation.framework in Frameworks */,
+				8089C3091744FF0400011D6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801DD76A1A26B79700D565FE /* FTKit */ = {
+			isa = PBXGroup;
+			children = (
+				802F07AE1A3B1F69000FD6D9 /* FTKit.h */,
+				801DD77D1A26B79700D565FE /* FTUtils.h */,
+				801DD77E1A26B79700D565FE /* FTUtils.m */,
+				8039C9EC1A89941C00978B3F /* FTApplication.h */,
+				8039C9ED1A89941C00978B3F /* FTApplication.m */,
+				802F07AA1A3ADAF4000FD6D9 /* FTPopoverView.h */,
+				802F07AB1A3ADAF4000FD6D9 /* FTPopoverView.m */,
+				80B750A61A553A0C008915FC /* FTTableView.h */,
+				80B750A71A553A0C008915FC /* FTTableView.m */,
+				8039C9E61A7F522D00978B3F /* FTTextField.h */,
+				8039C9E71A7F522D00978B3F /* FTTextField.m */,
+				8039C9F41A8B983300978B3F /* FTTextFieldSurrogate.h */,
+				8039C9F51A8B983300978B3F /* FTTextFieldSurrogate.m */,
+			);
+			path = FTKit;
+			sourceTree = "<group>";
+		};
+		801F3861193A141200835AED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80B750A11A528172008915FC /* Model.xcdatamodeld */,
+				801F3862193A145200835AED /* Symbol.h */,
+				801F3863193A145200835AED /* Symbol.m */,
+				801F3876193A145300835AED /* Record.h */,
+				801F3877193A145300835AED /* Record.m */,
+				801F387A193A18EB00835AED /* HistoryRecord.h */,
+				801F387B193A18EB00835AED /* HistoryRecord.m */,
+				801F386A193A145300835AED /* ConstantRecord.h */,
+				801F386B193A145300835AED /* ConstantRecord.m */,
+				801F387E193EF50F00835AED /* Sheet.h */,
+				801F387F193EF50F00835AED /* Sheet.m */,
+				801B8A5D196A8EA500F2FE92 /* HistorySheet.h */,
+				801B8A5E196A8EA500F2FE92 /* HistorySheet.m */,
+				801F386E193A145300835AED /* ConstantSheet.h */,
+				801F386F193A145300835AED /* ConstantSheet.m */,
+				809F688F194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.h */,
+				809F6890194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		802F07AF1A3B276C000FD6D9 /* FT Input System */ = {
+			isa = PBXGroup;
+			children = (
+				802F07B41A3B276C000FD6D9 /* FTInputSystem.h */,
+				802F07B51A3B276C000FD6D9 /* FTInputSystem.m */,
+				802F07B21A3B276C000FD6D9 /* FTCaret.h */,
+				802F07B31A3B276C000FD6D9 /* FTCaret.m */,
+				802F07B81A3B276C000FD6D9 /* FTSelectionSuite.h */,
+				802F07B91A3B276C000FD6D9 /* FTSelectionSuite.m */,
+				802F07BA1A3B276C000FD6D9 /* FTSelectionHandle.h */,
+				802F07BB1A3B276C000FD6D9 /* FTSelectionHandle.m */,
+				802F07B61A3B276C000FD6D9 /* FTLoupe.h */,
+				802F07B71A3B276C000FD6D9 /* FTLoupe.m */,
+				802F07B01A3B276C000FD6D9 /* FTBarLens.h */,
+				802F07B11A3B276C000FD6D9 /* FTBarLens.m */,
+				802F07BC1A3B276C000FD6D9 /* FTTopWindow.h */,
+				802F07BD1A3B276C000FD6D9 /* FTTopWindow.m */,
+				802F07BE1A3B276C000FD6D9 /* Images.xcassets */,
+			);
+			path = "FT Input System";
+			sourceTree = "<group>";
+		};
+		805334D91A1D832500AA3982 /* HistoryTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				80B8BB8F169C426F00354436 /* HistoryTableViewCell.h */,
+				80B8BB90169C426F00354436 /* HistoryTableViewCell.m */,
+				805334DC1A1D83C400AA3982 /* HTVC_MathExpressionView.h */,
+				805334DD1A1D83C400AA3982 /* HTVC_MathExpressionView.m */,
+				803BBAA11A273C7B00BD6448 /* HTVC_ColorPallete.h */,
+				803BBAA21A273C7B00BD6448 /* HTVC_ColorPallete.m */,
+				802F3F921A22CB7D0079D436 /* HTVC_Tag.h */,
+				802F3F931A22CB7D0079D436 /* HTVC_Tag.m */,
+				800D7C291A1F64330075C1BC /* HTVC_TagEditor.h */,
+				800D7C2A1A1F64330075C1BC /* HTVC_TagEditor.m */,
+			);
+			name = HistoryTableViewCell;
+			sourceTree = "<group>";
+		};
+		80779F8F190DDB6500FAA4DA /* My Decimal */ = {
+			isa = PBXGroup;
+			children = (
+				80779F9A190DDC2400FAA4DA /* MyDecimal.h */,
+				80779F9B190DDC2400FAA4DA /* MyDecimal.m */,
+				80E354E819A72BFE008CB303 /* decNumber.xcodeproj */,
+			);
+			name = "My Decimal";
+			sourceTree = "<group>";
+		};
+		80795014161938FB00E45AEE = {
+			isa = PBXGroup;
+			children = (
+				80317E5618AA65EB001E1319 /* iCalculator Lite-Info.plist */,
+				8089C3471745059E00011D6E /* iCalculator-Info.plist */,
+				807F98081727F7DB007E4B2C /* My Additions */,
+				80779F8F190DDB6500FAA4DA /* My Decimal */,
+				802F07AF1A3B276C000FD6D9 /* FT Input System */,
+				801DD76A1A26B79700D565FE /* FTKit */,
+				80795029161938FB00E45AEE /* iCalculator */,
+				80795022161938FB00E45AEE /* Frameworks */,
+				80795020161938FB00E45AEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80795020161938FB00E45AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8079501F161938FB00E45AEE /* iCalculator.app */,
+				8089C3451744FF0400011D6E /* iCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80795022161938FB00E45AEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802285FD19E16F98003689F5 /* AudioToolbox.framework */,
+				801F38441937167800835AED /* CoreData.framework */,
+				80B445AA183F4CA000DA6DA8 /* MessageUI.framework */,
+				807D68F01760B5AB00286597 /* Security.framework */,
+				807950461619395D00E45AEE /* QuartzCore.framework */,
+				80795023161938FB00E45AEE /* UIKit.framework */,
+				80795025161938FB00E45AEE /* Foundation.framework */,
+				80795027161938FB00E45AEE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80795029161938FB00E45AEE /* iCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				80795032161938FB00E45AEE /* AppDelegate.h */,
+				80795033161938FB00E45AEE /* AppDelegate.m */,
+				801F3861193A141200835AED /* Model */,
+				8079503B161938FB00E45AEE /* MainStoryboard_iPhone.storyboard */,
+				80EEF69717B8877400347A61 /* MainStoryboard_iPad.storyboard */,
+				803D46D11C91A4C90022E3BD /* Launch Screen.storyboard */,
+				8079503E161938FB00E45AEE /* MainViewController.h */,
+				8079503F161938FB00E45AEE /* MainViewController.m */,
+				8022860219E25A15003689F5 /* ViewControllerDropAnimator.h */,
+				8022860319E25A16003689F5 /* ViewControllerDropAnimator.m */,
+				80DB62251A75E7C500C1E867 /* HistorySectionHeader.h */,
+				80DB62261A75E7C500C1E867 /* HistorySectionHeader.m */,
+				805334D91A1D832500AA3982 /* HistoryTableViewCell */,
+				80A539F2198B3D3B00F1B196 /* UINavigationController_PortraitOnly.h */,
+				80A539F3198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m */,
+				80EDDE77196A6B1700B61F13 /* HistorySheetsViewController.h */,
+				80EDDE78196A6B1700B61F13 /* HistorySheetsViewController.m */,
+				80515BC51A348B5200A90F9C /* MathUnitInputView.h */,
+				80515BC61A348B5200A90F9C /* MathUnitInputView.m */,
+				80CEE28017B27A8100E16869 /* MathKeyboard.h */,
+				803A030717DFF4CE00BCAFF2 /* MathKeyboard_Subclass.h */,
+				803A030B17DFF67D00BCAFF2 /* MathKeyboard.m */,
+				803A02FF17DF063B00BCAFF2 /* MathKeyboard_iPad.h */,
+				803A030017DF063B00BCAFF2 /* MathKeyboard_iPad.m */,
+				803A030317DF065E00BCAFF2 /* MathKeyboard_iPhone.h */,
+				803A030417DF065E00BCAFF2 /* MathKeyboard_iPhone.m */,
+				80826183176D339A00DAA7BB /* MathEnvironment.h */,
+				80826184176D339A00DAA7BB /* MathEnvironment.m */,
+				80811B0C19C0361100DE62CD /* MathUnit.h */,
+				80811B0D19C0361100DE62CD /* MathUnit.m */,
+				80811B1419C08BC600DE62CD /* Concrete Units */,
+				80811B1019C08BBB00DE62CD /* MathUnitSet.h */,
+				80811B1119C08BBB00DE62CD /* MathUnitSet.m */,
+				80E3557F19BEF3BA008CB303 /* MathResult.h */,
+				80E3558019BEF3BA008CB303 /* MathResult.m */,
+				8079505B161945FF00E45AEE /* MathElement.h */,
+				8079505C161945FF00E45AEE /* MathElement.m */,
+				80795063161945FF00E45AEE /* MathNumber.h */,
+				80795064161945FF00E45AEE /* MathNumber.m */,
+				80795065161945FF00E45AEE /* MathOperator.h */,
+				80795066161945FF00E45AEE /* MathOperator.m */,
+				80827AFB169962A5003A67C0 /* MathCompositeOperator.h */,
+				80827AFC169962A5003A67C0 /* MathCompositeOperator.m */,
+				8079504C161945FF00E45AEE /* Concrete Operators */,
+				8079505D161945FF00E45AEE /* MathExpression.h */,
+				8079505E161945FF00E45AEE /* MathExpression.m */,
+				8079505F161945FF00E45AEE /* MathExpression+Editing.h */,
+				80795060161945FF00E45AEE /* MathExpression+Editing.m */,
+				80795061161945FF00E45AEE /* MathExpressionView.h */,
+				80795062161945FF00E45AEE /* MathExpressionView.m */,
+				8082CD7B16916FEC00B0B7A7 /* MathEditableExpressionView.h */,
+				8082CD7C16916FEC00B0B7A7 /* MathEditableExpressionView.m */,
+				807D169A17200F5C00287A7B /* info */,
+				8079502A161938FB00E45AEE /* Supporting Files */,
+			);
+			path = iCalculator;
+			sourceTree = "<group>";
+		};
+		8079502A161938FB00E45AEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AB8DBB17D5BE4B00C49A60 /* Images.xcassets */,
+				80520FF418406BAA00B753DF /* Localizable.strings */,
+				8079502C161938FB00E45AEE /* InfoPlist.strings */,
+				8079502F161938FB00E45AEE /* main.m */,
+				80795031161938FB00E45AEE /* iCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8079504C161945FF00E45AEE /* Concrete Operators */ = {
+			isa = PBXGroup;
+			children = (
+				807E966417467DBB00B60E42 /* MathConcreteOperators.h */,
+				80B444BF183A4C2600DA6DA8 /* MathAbs.h */,
+				80B444C0183A4C2600DA6DA8 /* MathAbs.m */,
+				8079504F161945FF00E45AEE /* MathAdd.h */,
+				80795050161945FF00E45AEE /* MathAdd.m */,
+				8080862D171440E100B341B0 /* MathArccos.h */,
+				8080862E171440E100B341B0 /* MathArccos.m */,
+				80B444E5183B56C100DA6DA8 /* MathArccosh.h */,
+				80B444E6183B56C100DA6DA8 /* MathArccosh.m */,
+				8080862A171440CE00B341B0 /* MathArcsin.h */,
+				8080862B171440CF00B341B0 /* MathArcsin.m */,
+				80B444E1183B443100DA6DA8 /* MathArcsinh.h */,
+				80B444E2183B443100DA6DA8 /* MathArcsinh.m */,
+				80808630171440F400B341B0 /* MathArctan.h */,
+				80808631171440F500B341B0 /* MathArctan.m */,
+				80B444E9183B594D00DA6DA8 /* MathArctanh.h */,
+				80B444EA183B594D00DA6DA8 /* MathArctanh.m */,
+				80FE966B18B33EA300565F21 /* MathCbrt.h */,
+				80FE966C18B33EA300565F21 /* MathCbrt.m */,
+				80B444A9183A45FC00DA6DA8 /* MathCeil.h */,
+				80B444AA183A45FC00DA6DA8 /* MathCeil.m */,
+				808B03431762F83000C10027 /* MathCombination.h */,
+				808B03441762F83000C10027 /* MathCombination.m */,
+				80808615171438B500B341B0 /* MathConstant.h */,
+				80808616171438B500B341B0 /* MathConstant.m */,
+				808086241714407200B341B0 /* MathCos.h */,
+				808086251714407200B341B0 /* MathCos.m */,
+				80B444D9183B42E400DA6DA8 /* MathCosh.h */,
+				80B444DA183B42E400DA6DA8 /* MathCosh.m */,
+				80808633171442F000B341B0 /* MathDegree.h */,
+				80808634171442F100B341B0 /* MathDegree.m */,
+				80795051161945FF00E45AEE /* MathDiv.h */,
+				80795052161945FF00E45AEE /* MathDiv.m */,
+				8080863C1714436400B341B0 /* MathFactorial.h */,
+				8080863D1714436500B341B0 /* MathFactorial.m */,
+				805E0FB51815570F00D70C53 /* MathFloor.h */,
+				805E0FB61815570F00D70C53 /* MathFloor.m */,
+				802D6DE9181A15F40038C660 /* MathFraction.h */,
+				802D6DEA181A15F40038C660 /* MathFraction.m */,
+				80838B571684B0750013644C /* MathImplicitMul.h */,
+				80838B581684B0750013644C /* MathImplicitMul.m */,
+				8080861E17143FE600B341B0 /* MathLn.h */,
+				8080861F17143FE600B341B0 /* MathLn.m */,
+				8077CFF418E3CFA800F73E10 /* MathLog.h */,
+				8077CFF518E3CFA800F73E10 /* MathLog.m */,
+				8080861B17143F7700B341B0 /* MathLog10.h */,
+				8080861C17143F7700B341B0 /* MathLog10.m */,
+				8080861817143C2000B341B0 /* MathLog2.h */,
+				8080861917143C2000B341B0 /* MathLog2.m */,
+				808086391714434600B341B0 /* MathMod.h */,
+				8080863A1714434700B341B0 /* MathMod.m */,
+				80795053161945FF00E45AEE /* MathMul.h */,
+				80795054161945FF00E45AEE /* MathMul.m */,
+				80838B5316849E6E0013644C /* MathNeg.h */,
+				80838B5416849E6E0013644C /* MathNeg.m */,
+				8079504D161945FF00E45AEE /* MathParentheses.h */,
+				8079504E161945FF00E45AEE /* MathParentheses.m */,
+				808086361714433000B341B0 /* MathPercent.h */,
+				808086371714433000B341B0 /* MathPercent.m */,
+				807D68EC1760AB6E00286597 /* MathPermille.h */,
+				807D68ED1760AB6E00286597 /* MathPermille.m */,
+				808CB2501762AD460015ED33 /* MathPermutation.h */,
+				808CB2511762AD460015ED33 /* MathPermutation.m */,
+				80E5394518309C2D00831AA6 /* MathPos.h */,
+				80E5394618309C2D00831AA6 /* MathPos.m */,
+				80795055161945FF00E45AEE /* MathPow.h */,
+				80795056161945FF00E45AEE /* MathPow.m */,
+				808F4C2B18E900C400356E2A /* MathRoot.h */,
+				808F4C2C18E900C400356E2A /* MathRoot.m */,
+				808086211714405300B341B0 /* MathSin.h */,
+				808086221714405300B341B0 /* MathSin.m */,
+				80B444D5183B40E100DA6DA8 /* MathSinh.h */,
+				80B444D6183B40E100DA6DA8 /* MathSinh.m */,
+				80812D521681F147008A755A /* MathSqrt.h */,
+				80812D531681F147008A755A /* MathSqrt.m */,
+				80795057161945FF00E45AEE /* MathSub.h */,
+				80795058161945FF00E45AEE /* MathSub.m */,
+				808086271714408800B341B0 /* MathTan.h */,
+				808086281714408800B341B0 /* MathTan.m */,
+				80B444DD183B42FF00DA6DA8 /* MathTanh.h */,
+				80B444DE183B42FF00DA6DA8 /* MathTanh.m */,
+			);
+			path = "Concrete Operators";
+			sourceTree = "<group>";
+		};
+		807D169A17200F5C00287A7B /* info */ = {
+			isa = PBXGroup;
+			children = (
+				8082E1621766C4A500FDF0A5 /* UITabBarController_PortraitOnly.h */,
+				8082E1631766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m */,
+				807C67971737EE6700C065E3 /* PreferencesViewController.h */,
+				807C67981737EE6700C065E3 /* PreferencesViewController.m */,
+				80BCF7D7179AD4D80076C255 /* TipsViewController_iPad.h */,
+				80BCF7D8179AD4D80076C255 /* TipsViewController_iPad.m */,
+				807C679A1737EE6700C065E3 /* TipsMasterViewController_iPhone.h */,
+				807C679B1737EE6700C065E3 /* TipsMasterViewController_iPhone.m */,
+				80BCF7E3179BBCA40076C255 /* TipsMasterViewController_iPad.h */,
+				80BCF7E4179BBCA40076C255 /* TipsMasterViewController_iPad.m */,
+				80A0135A17A69EB400E51174 /* TipsDetailViewController.h */,
+				80A0135B17A69EB400E51174 /* TipsDetailViewController.m */,
+				80B6288017B921A300ABC115 /* tips.css */,
+				80B6287417B8DCFB00ABC115 /* tip0.html */,
+				80B6287917B90DAA00ABC115 /* tip1.html */,
+				80B6288517B921E500ABC115 /* tip2.html */,
+				80B6288A17B9223F00ABC115 /* tip3.html */,
+				80B6288F17B9229A00ABC115 /* tip4.html */,
+				80B44583183DDAE600DA6DA8 /* tip5.html */,
+				8001B6F918AB9F0E0033D779 /* glyph-sqrt-18@2x.png */,
+				80FE96B418B48D3400565F21 /* image-key-()-18@2x.png */,
+				80FE974518B7424900565F21 /* image-key-return-18@2x.png */,
+				80FE96B618B48D3400565F21 /* image-key-sqrt-18@2x.png */,
+				803AA8291A90E0EB00533251 /* disclosure-arrow-down@2x.png */,
+				803AA81A1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png */,
+				803AA81B1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png */,
+				8064220619E927CB0031F45C /* image-remove-()@2x.png */,
+				8064220919E929E90031F45C /* image-remove-sqrt@2x.png */,
+				806421CA19E8105F0031F45C /* image-angle-input-zh@2x.png */,
+				806421CB19E8105F0031F45C /* image-angle-input@2x.png */,
+				806421D619E904730031F45C /* image-angle-conversion-zh@2x.png */,
+				806421D719E904730031F45C /* image-angle-conversion@2x.png */,
+				803AA8201A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png */,
+				803AA8211A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png */,
+				803AA8221A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png */,
+				806421F419E91ED80031F45C /* image-remove-()~iPad-zh@2x.png */,
+				806421F519E91ED80031F45C /* image-remove-()~iPad@2x.png */,
+				806421F619E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png */,
+				806421F719E91ED80031F45C /* image-remove-sqrt~iPad@2x.png */,
+				806421DC19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png */,
+				806421DD19E90BA60031F45C /* image-angle-input~iPad@2x.png */,
+				806421E219E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png */,
+				806421E319E90EEB0031F45C /* image-angle-conversion~iPad@2x.png */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		807F98081727F7DB007E4B2C /* My Additions */ = {
+			isa = PBXGroup;
+			children = (
+				807F981E1727FDFC007E4B2C /* MyAdditions.h */,
+				80A539EB1989D1DB00F1B196 /* NSObjCRuntime+MyAdditions.h */,
+				807F981D1727FDFC007E4B2C /* CGGeometry+MyAdditions.h */,
+				807F981F1727FDFC007E4B2C /* UIGeometry+MyAdditions.h */,
+				8080EFCF175071DB003851C1 /* UIResponder+MyAdditions.h */,
+				8080EFD0175071DB003851C1 /* UIResponder+MyAdditions.m */,
+				807F98201727FDFC007E4B2C /* UIScrollView+MyAdditions.h */,
+				807F98211727FDFC007E4B2C /* UIScrollView+MyAdditions.m */,
+				80B750AA1A553BB5008915FC /* UITableView+MyAdditions.h */,
+				80B750AB1A553BB5008915FC /* UITableView+MyAdditions.m */,
+				809D28B41991F81E00FD2B03 /* UIView+MyAdditions.h */,
+				809D28B51991F81E00FD2B03 /* UIView+MyAdditions.m */,
+				8024BC9C1A44639E001859D5 /* CALayer+MyAdditions.h */,
+				8024BC9D1A44639E001859D5 /* CALayer+MyAdditions.m */,
+			);
+			path = "My Additions";
+			sourceTree = "<group>";
+		};
+		80811B1419C08BC600DE62CD /* Concrete Units */ = {
+			isa = PBXGroup;
+			children = (
+				80811B1519C177BB00DE62CD /* MathAngleUnitDegree.h */,
+				80811B1619C177BB00DE62CD /* MathAngleUnitDegree.m */,
+				80811B1919C177DD00DE62CD /* MathAngleUnitUserDefault.h */,
+				80811B1A19C177DD00DE62CD /* MathAngleUnitUserDefault.m */,
+			);
+			name = "Concrete Units";
+			sourceTree = "<group>";
+		};
+		80E354E919A72BFE008CB303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E354EE19A72BFE008CB303 /* libdecNumber.a */,
+				80E354F019A72BFE008CB303 /* decNumberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8079501E161938FB00E45AEE /* iCalculator Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80795043161938FB00E45AEE /* Build configuration list for PBXNativeTarget "iCalculator Lite" */;
+			buildPhases = (
+				8079501B161938FB00E45AEE /* Sources */,
+				8079501C161938FB00E45AEE /* Frameworks */,
+				8079501D161938FB00E45AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iCalculator Lite";
+			productName = iCalculator;
+			productReference = 8079501F161938FB00E45AEE /* iCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8089C2D11744FF0400011D6E /* iCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8089C3421744FF0400011D6E /* Build configuration list for PBXNativeTarget "iCalculator" */;
+			buildPhases = (
+				8089C2D21744FF0400011D6E /* Sources */,
+				8089C3051744FF0400011D6E /* Frameworks */,
+				8089C30A1744FF0400011D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCalculator;
+			productName = iCalculator;
+			productReference = 8089C3451744FF0400011D6E /* iCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80795016161938FB00E45AEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Fish Tribe";
+				TargetAttributes = {
+					8079501E161938FB00E45AEE = {
+						DevelopmentTeam = PRHYYKR9Q4;
+					};
+					8089C2D11744FF0400011D6E = {
+						DevelopmentTeam = PRHYYKR9Q4;
+					};
+				};
+			};
+			buildConfigurationList = 80795019161938FB00E45AEE /* Build configuration list for PBXProject "iCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 80795014161938FB00E45AEE;
+			productRefGroup = 80795020161938FB00E45AEE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 80E354E919A72BFE008CB303 /* Products */;
+					ProjectRef = 80E354E819A72BFE008CB303 /* decNumber.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8079501E161938FB00E45AEE /* iCalculator Lite */,
+				8089C2D11744FF0400011D6E /* iCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		80E354EE19A72BFE008CB303 /* libdecNumber.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdecNumber.a;
+			remoteRef = 80E354ED19A72BFE008CB303 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80E354F019A72BFE008CB303 /* decNumberTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = decNumberTests.xctest;
+			remoteRef = 80E354EF19A72BFE008CB303 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8079501D161938FB00E45AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8064220719E927CB0031F45C /* image-remove-()@2x.png in Resources */,
+				8079502E161938FB00E45AEE /* InfoPlist.strings in Resources */,
+				8079503D161938FB00E45AEE /* MainStoryboard_iPhone.storyboard in Resources */,
+				803AA8251A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png in Resources */,
+				8015736917D610DD00E5A89A /* Images.xcassets in Resources */,
+				8001B6FA18AB9F0E0033D779 /* glyph-sqrt-18@2x.png in Resources */,
+				806421CE19E8105F0031F45C /* image-angle-input-zh@2x.png in Resources */,
+				803AA81E1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png in Resources */,
+				803D46D21C91A4C90022E3BD /* Launch Screen.storyboard in Resources */,
+				803AA8271A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png in Resources */,
+				802F07CD1A3B276C000FD6D9 /* Images.xcassets in Resources */,
+				803AA81C1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png in Resources */,
+				806421DE19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png in Resources */,
+				806421DA19E904730031F45C /* image-angle-conversion@2x.png in Resources */,
+				80B44580183DDAE600DA6DA8 /* tip5.html in Resources */,
+				803AA8231A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png in Resources */,
+				806421FE19E91ED80031F45C /* image-remove-sqrt~iPad@2x.png in Resources */,
+				80B6287117B8DCFB00ABC115 /* tip0.html in Resources */,
+				80B6287617B90DAA00ABC115 /* tip1.html in Resources */,
+				80B6288217B921E500ABC115 /* tip2.html in Resources */,
+				806421D019E8105F0031F45C /* image-angle-input@2x.png in Resources */,
+				8064220A19E929E90031F45C /* image-remove-sqrt@2x.png in Resources */,
+				806421E619E90EEB0031F45C /* image-angle-conversion~iPad@2x.png in Resources */,
+				806421FC19E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png in Resources */,
+				806421D819E904730031F45C /* image-angle-conversion-zh@2x.png in Resources */,
+				80FE96BB18B48D3400565F21 /* image-key-sqrt-18@2x.png in Resources */,
+				806421E419E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png in Resources */,
+				80B6288717B9223F00ABC115 /* tip3.html in Resources */,
+				80520FF118406BAA00B753DF /* Localizable.strings in Resources */,
+				80FE96B718B48D3400565F21 /* image-key-()-18@2x.png in Resources */,
+				806421F819E91ED80031F45C /* image-remove-()~iPad-zh@2x.png in Resources */,
+				806421FA19E91ED80031F45C /* image-remove-()~iPad@2x.png in Resources */,
+				803AA82A1A90E0EB00533251 /* disclosure-arrow-down@2x.png in Resources */,
+				80B6288C17B9229A00ABC115 /* tip4.html in Resources */,
+				80B6289117B9DC1300ABC115 /* tips.css in Resources */,
+				80FE974618B7424900565F21 /* image-key-return-18@2x.png in Resources */,
+				806421E019E90BA60031F45C /* image-angle-input~iPad@2x.png in Resources */,
+				80B29CD017C1FBA100710D4C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C30A1744FF0400011D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8064220819E927CB0031F45C /* image-remove-()@2x.png in Resources */,
+				8089C30B1744FF0400011D6E /* InfoPlist.strings in Resources */,
+				8089C30C1744FF0400011D6E /* MainStoryboard_iPhone.storyboard in Resources */,
+				803AA8261A90D70300533251 /* image-flyout-keypad-from-div~iPad@2x.png in Resources */,
+				8001B6FB18AB9F0E0033D779 /* glyph-sqrt-18@2x.png in Resources */,
+				80B44581183DDAE600DA6DA8 /* tip5.html in Resources */,
+				806421CF19E8105F0031F45C /* image-angle-input-zh@2x.png in Resources */,
+				803AA81F1A90D6DA00533251 /* image-flyout-keypad-from-sqrt@2x.png in Resources */,
+				803D46D31C91A4C90022E3BD /* Launch Screen.storyboard in Resources */,
+				803AA8281A90D70300533251 /* image-flyout-keypad-from-sqrt~iPad@2x.png in Resources */,
+				802F07CE1A3B276C000FD6D9 /* Images.xcassets in Resources */,
+				803AA81D1A90D6DA00533251 /* image-flyout-keypad-from-div@2x.png in Resources */,
+				806421DF19E90BA60031F45C /* image-angle-input~iPad-zh@2x.png in Resources */,
+				806421DB19E904730031F45C /* image-angle-conversion@2x.png in Resources */,
+				80EEF69517B8877400347A61 /* MainStoryboard_iPad.storyboard in Resources */,
+				803AA8241A90D70300533251 /* image-flyout-keypad-from-div~iPad-zh@2x.png in Resources */,
+				806421FF19E91ED80031F45C /* image-remove-sqrt~iPad@2x.png in Resources */,
+				80B6287217B8DCFB00ABC115 /* tip0.html in Resources */,
+				80B6287717B90DAA00ABC115 /* tip1.html in Resources */,
+				80B6288317B921E500ABC115 /* tip2.html in Resources */,
+				806421D119E8105F0031F45C /* image-angle-input@2x.png in Resources */,
+				8064220B19E929E90031F45C /* image-remove-sqrt@2x.png in Resources */,
+				806421E719E90EEB0031F45C /* image-angle-conversion~iPad@2x.png in Resources */,
+				806421FD19E91ED80031F45C /* image-remove-sqrt~iPad-zh@2x.png in Resources */,
+				806421D919E904730031F45C /* image-angle-conversion-zh@2x.png in Resources */,
+				80FE96BC18B48D3400565F21 /* image-key-sqrt-18@2x.png in Resources */,
+				806421E519E90EEB0031F45C /* image-angle-conversion~iPad-zh@2x.png in Resources */,
+				80B6288817B9223F00ABC115 /* tip3.html in Resources */,
+				80520FF218406BAA00B753DF /* Localizable.strings in Resources */,
+				80FE96B818B48D3400565F21 /* image-key-()-18@2x.png in Resources */,
+				806421F919E91ED80031F45C /* image-remove-()~iPad-zh@2x.png in Resources */,
+				806421FB19E91ED80031F45C /* image-remove-()~iPad@2x.png in Resources */,
+				803AA82B1A90E0EB00533251 /* disclosure-arrow-down@2x.png in Resources */,
+				80B6288D17B9229A00ABC115 /* tip4.html in Resources */,
+				80AB8DBC17D5BE4B00C49A60 /* Images.xcassets in Resources */,
+				80FE974718B7424900565F21 /* image-key-return-18@2x.png in Resources */,
+				806421E119E90BA60031F45C /* image-angle-input~iPad@2x.png in Resources */,
+				80B6288117B921A400ABC115 /* tips.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8079501B161938FB00E45AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800D7C2B1A1F64330075C1BC /* HTVC_TagEditor.m in Sources */,
+				80795030161938FB00E45AEE /* main.m in Sources */,
+				80795034161938FB00E45AEE /* AppDelegate.m in Sources */,
+				80795040161938FB00E45AEE /* MainViewController.m in Sources */,
+				80795067161945FF00E45AEE /* MathParentheses.m in Sources */,
+				80B444C1183A4C2600DA6DA8 /* MathAbs.m in Sources */,
+				80795068161945FF00E45AEE /* MathAdd.m in Sources */,
+				80795069161945FF00E45AEE /* MathDiv.m in Sources */,
+				802F07C51A3B276C000FD6D9 /* FTLoupe.m in Sources */,
+				8079506A161945FF00E45AEE /* MathMul.m in Sources */,
+				8079506B161945FF00E45AEE /* MathPow.m in Sources */,
+				8079506C161945FF00E45AEE /* MathSub.m in Sources */,
+				8079506E161945FF00E45AEE /* MathElement.m in Sources */,
+				801F3880193EF50F00835AED /* Sheet.m in Sources */,
+				8079506F161945FF00E45AEE /* MathExpression.m in Sources */,
+				80795070161945FF00E45AEE /* MathExpression+Editing.m in Sources */,
+				80795071161945FF00E45AEE /* MathExpressionView.m in Sources */,
+				80B750A81A553A0C008915FC /* FTTableView.m in Sources */,
+				80795072161945FF00E45AEE /* MathNumber.m in Sources */,
+				80795073161945FF00E45AEE /* MathOperator.m in Sources */,
+				80811B0E19C0361100DE62CD /* MathUnit.m in Sources */,
+				80812D541681F148008A755A /* MathSqrt.m in Sources */,
+				80838B5516849E6E0013644C /* MathNeg.m in Sources */,
+				809F6891194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m in Sources */,
+				801DD7911A26B79700D565FE /* FTUtils.m in Sources */,
+				801F3878193A145300835AED /* Record.m in Sources */,
+				8024BC9E1A44639E001859D5 /* CALayer+MyAdditions.m in Sources */,
+				80838B591684B0750013644C /* MathImplicitMul.m in Sources */,
+				80B3BA0F18F29B64001F9479 /* MathSin.m in Sources */,
+				803A030117DF063B00BCAFF2 /* MathKeyboard_iPad.m in Sources */,
+				8082CD7D16916FEC00B0B7A7 /* MathEditableExpressionView.m in Sources */,
+				80827AFD169962A5003A67C0 /* MathCompositeOperator.m in Sources */,
+				80B8BB91169C426F00354436 /* HistoryTableViewCell.m in Sources */,
+				802D6DEB181A15F40038C660 /* MathFraction.m in Sources */,
+				80808617171438B600B341B0 /* MathConstant.m in Sources */,
+				803BBAA31A273C7B00BD6448 /* HTVC_ColorPallete.m in Sources */,
+				8080861A17143C2000B341B0 /* MathLog2.m in Sources */,
+				80B444DB183B42E400DA6DA8 /* MathCosh.m in Sources */,
+				801F386C193A145300835AED /* ConstantRecord.m in Sources */,
+				80317E5E18AB78C3001E1319 /* MathPermutation.m in Sources */,
+				80B444EB183B594D00DA6DA8 /* MathArctanh.m in Sources */,
+				802F07C91A3B276C000FD6D9 /* FTSelectionHandle.m in Sources */,
+				80B444AB183A45FC00DA6DA8 /* MathCeil.m in Sources */,
+				8080861D17143F7700B341B0 /* MathLog10.m in Sources */,
+				8080862017143FE600B341B0 /* MathLn.m in Sources */,
+				80DB62271A75E7C500C1E867 /* HistorySectionHeader.m in Sources */,
+				80B444DF183B42FF00DA6DA8 /* MathTanh.m in Sources */,
+				80FE966D18B33EA300565F21 /* MathCbrt.m in Sources */,
+				8039C9F61A8B983300978B3F /* FTTextFieldSurrogate.m in Sources */,
+				80B750A41A528172008915FC /* Model.xcdatamodeld in Sources */,
+				8039C9E81A7F522D00978B3F /* FTTextField.m in Sources */,
+				808086261714407200B341B0 /* MathCos.m in Sources */,
+				808086291714408900B341B0 /* MathTan.m in Sources */,
+				80B750AC1A553BB5008915FC /* UITableView+MyAdditions.m in Sources */,
+				802F07C11A3B276C000FD6D9 /* FTCaret.m in Sources */,
+				80B444E7183B56C100DA6DA8 /* MathArccosh.m in Sources */,
+				8080862C171440CF00B341B0 /* MathArcsin.m in Sources */,
+				808F4C2D18E900C400356E2A /* MathRoot.m in Sources */,
+				80E5394718309C2D00831AA6 /* MathPos.m in Sources */,
+				8080862F171440E100B341B0 /* MathArccos.m in Sources */,
+				80808632171440F500B341B0 /* MathArctan.m in Sources */,
+				80811B1219C08BBB00DE62CD /* MathUnitSet.m in Sources */,
+				802F07BF1A3B276C000FD6D9 /* FTBarLens.m in Sources */,
+				80808635171442F100B341B0 /* MathDegree.m in Sources */,
+				809D28B61991F81E00FD2B03 /* UIView+MyAdditions.m in Sources */,
+				805334DE1A1D83C400AA3982 /* HTVC_MathExpressionView.m in Sources */,
+				808086381714433200B341B0 /* MathPercent.m in Sources */,
+				80811B1719C177BB00DE62CD /* MathAngleUnitDegree.m in Sources */,
+				80E3558119BEF3BA008CB303 /* MathResult.m in Sources */,
+				8080863B1714434800B341B0 /* MathMod.m in Sources */,
+				802F07AC1A3ADAF4000FD6D9 /* FTPopoverView.m in Sources */,
+				8080863E1714436600B341B0 /* MathFactorial.m in Sources */,
+				8039C9EE1A89941D00978B3F /* FTApplication.m in Sources */,
+				801F3864193A145200835AED /* Symbol.m in Sources */,
+				8077CFF618E3CFA800F73E10 /* MathLog.m in Sources */,
+				807F98221727FDFC007E4B2C /* UIScrollView+MyAdditions.m in Sources */,
+				8022860419E25A16003689F5 /* ViewControllerDropAnimator.m in Sources */,
+				803A030517DF065E00BCAFF2 /* MathKeyboard_iPhone.m in Sources */,
+				802F3F941A22CB7D0079D436 /* HTVC_Tag.m in Sources */,
+				80779F9C190DDC2400FAA4DA /* MyDecimal.m in Sources */,
+				801B8A5F196A8EA500F2FE92 /* HistorySheet.m in Sources */,
+				802F07CB1A3B276C000FD6D9 /* FTTopWindow.m in Sources */,
+				801F3870193A145300835AED /* ConstantSheet.m in Sources */,
+				807C679C1737EE6700C065E3 /* PreferencesViewController.m in Sources */,
+				807C679E1737EE6700C065E3 /* TipsMasterViewController_iPhone.m in Sources */,
+				80811B1B19C177DD00DE62CD /* MathAngleUnitUserDefault.m in Sources */,
+				8080EFD1175071DB003851C1 /* UIResponder+MyAdditions.m in Sources */,
+				802F07C71A3B276C000FD6D9 /* FTSelectionSuite.m in Sources */,
+				80EDDE79196A6B1700B61F13 /* HistorySheetsViewController.m in Sources */,
+				807D68EE1760AB6E00286597 /* MathPermille.m in Sources */,
+				80B444D7183B40E100DA6DA8 /* MathSinh.m in Sources */,
+				80B444E3183B443100DA6DA8 /* MathArcsinh.m in Sources */,
+				808B03451762F83000C10027 /* MathCombination.m in Sources */,
+				805E0FB71815570F00D70C53 /* MathFloor.m in Sources */,
+				8082E1641766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m in Sources */,
+				80826185176D339A00DAA7BB /* MathEnvironment.m in Sources */,
+				80317E5418AA6517001E1319 /* MathKeyboard.m in Sources */,
+				802F07C31A3B276C000FD6D9 /* FTInputSystem.m in Sources */,
+				80A0135C17A69EB500E51174 /* TipsDetailViewController.m in Sources */,
+				80B29CD117C1FBBF00710D4C /* TipsViewController_iPad.m in Sources */,
+				80515BC71A348B5200A90F9C /* MathUnitInputView.m in Sources */,
+				80B29CD217C1FBC500710D4C /* TipsMasterViewController_iPad.m in Sources */,
+				80A539F4198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m in Sources */,
+				801F387C193A18EB00835AED /* HistoryRecord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C2D21744FF0400011D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800D7C2C1A1F64330075C1BC /* HTVC_TagEditor.m in Sources */,
+				8089C2D31744FF0400011D6E /* main.m in Sources */,
+				8089C2D41744FF0400011D6E /* AppDelegate.m in Sources */,
+				8089C2D51744FF0400011D6E /* MainViewController.m in Sources */,
+				8089C2D61744FF0400011D6E /* MathParentheses.m in Sources */,
+				80B444C2183A4C2600DA6DA8 /* MathAbs.m in Sources */,
+				8089C2D71744FF0400011D6E /* MathAdd.m in Sources */,
+				8089C2D81744FF0400011D6E /* MathDiv.m in Sources */,
+				802F07C61A3B276C000FD6D9 /* FTLoupe.m in Sources */,
+				8089C2D91744FF0400011D6E /* MathMul.m in Sources */,
+				8089C2DA1744FF0400011D6E /* MathPow.m in Sources */,
+				8089C2DB1744FF0400011D6E /* MathSub.m in Sources */,
+				8089C2DC1744FF0400011D6E /* MathElement.m in Sources */,
+				801F3881193EF50F00835AED /* Sheet.m in Sources */,
+				8089C2DD1744FF0400011D6E /* MathExpression.m in Sources */,
+				8089C2DE1744FF0400011D6E /* MathExpression+Editing.m in Sources */,
+				8089C2DF1744FF0400011D6E /* MathExpressionView.m in Sources */,
+				80B750A91A553A0C008915FC /* FTTableView.m in Sources */,
+				8089C2E01744FF0400011D6E /* MathNumber.m in Sources */,
+				8089C2E11744FF0400011D6E /* MathOperator.m in Sources */,
+				80811B0F19C0361100DE62CD /* MathUnit.m in Sources */,
+				8089C2E31744FF0400011D6E /* MathSqrt.m in Sources */,
+				8089C2E41744FF0400011D6E /* MathNeg.m in Sources */,
+				809F6892194C2BEA00B5F5A5 /* MathExpressionToNSDataTransformer.m in Sources */,
+				801DD7921A26B79700D565FE /* FTUtils.m in Sources */,
+				801F3879193A145300835AED /* Record.m in Sources */,
+				8024BC9F1A44639E001859D5 /* CALayer+MyAdditions.m in Sources */,
+				8089C2E51744FF0400011D6E /* MathImplicitMul.m in Sources */,
+				80B3BA0E18F29B63001F9479 /* MathSin.m in Sources */,
+				803A030217DF063B00BCAFF2 /* MathKeyboard_iPad.m in Sources */,
+				8089C2E61744FF0400011D6E /* MathEditableExpressionView.m in Sources */,
+				8089C2E71744FF0400011D6E /* MathCompositeOperator.m in Sources */,
+				8089C2E81744FF0400011D6E /* HistoryTableViewCell.m in Sources */,
+				802D6DEC181A15F40038C660 /* MathFraction.m in Sources */,
+				8089C2EA1744FF0400011D6E /* MathConstant.m in Sources */,
+				803BBAA41A273C7B00BD6448 /* HTVC_ColorPallete.m in Sources */,
+				8089C2EB1744FF0400011D6E /* MathLog2.m in Sources */,
+				80B444DC183B42E400DA6DA8 /* MathCosh.m in Sources */,
+				801F386D193A145300835AED /* ConstantRecord.m in Sources */,
+				80317E5F18AB78C4001E1319 /* MathPermutation.m in Sources */,
+				80B444EC183B594D00DA6DA8 /* MathArctanh.m in Sources */,
+				802F07CA1A3B276C000FD6D9 /* FTSelectionHandle.m in Sources */,
+				80B444AC183A45FC00DA6DA8 /* MathCeil.m in Sources */,
+				8089C2EC1744FF0400011D6E /* MathLog10.m in Sources */,
+				8089C2ED1744FF0400011D6E /* MathLn.m in Sources */,
+				80DB62281A75E7C500C1E867 /* HistorySectionHeader.m in Sources */,
+				80B444E0183B42FF00DA6DA8 /* MathTanh.m in Sources */,
+				80FE966E18B33EA300565F21 /* MathCbrt.m in Sources */,
+				8039C9F71A8B983300978B3F /* FTTextFieldSurrogate.m in Sources */,
+				80B750A51A528172008915FC /* Model.xcdatamodeld in Sources */,
+				8039C9E91A7F522D00978B3F /* FTTextField.m in Sources */,
+				8089C2EF1744FF0400011D6E /* MathCos.m in Sources */,
+				8089C2F01744FF0400011D6E /* MathTan.m in Sources */,
+				80B750AD1A553BB5008915FC /* UITableView+MyAdditions.m in Sources */,
+				802F07C21A3B276C000FD6D9 /* FTCaret.m in Sources */,
+				80B444E8183B56C100DA6DA8 /* MathArccosh.m in Sources */,
+				8089C2F11744FF0400011D6E /* MathArcsin.m in Sources */,
+				808F4C2E18E900C400356E2A /* MathRoot.m in Sources */,
+				80E5394818309C2D00831AA6 /* MathPos.m in Sources */,
+				8089C2F21744FF0400011D6E /* MathArccos.m in Sources */,
+				8089C2F31744FF0400011D6E /* MathArctan.m in Sources */,
+				80811B1319C08BBB00DE62CD /* MathUnitSet.m in Sources */,
+				802F07C01A3B276C000FD6D9 /* FTBarLens.m in Sources */,
+				8089C2F41744FF0400011D6E /* MathDegree.m in Sources */,
+				809D28B71991F81E00FD2B03 /* UIView+MyAdditions.m in Sources */,
+				805334DF1A1D83C400AA3982 /* HTVC_MathExpressionView.m in Sources */,
+				8089C2F51744FF0400011D6E /* MathPercent.m in Sources */,
+				80811B1819C177BB00DE62CD /* MathAngleUnitDegree.m in Sources */,
+				80E3558219BEF3BA008CB303 /* MathResult.m in Sources */,
+				8089C2F61744FF0400011D6E /* MathMod.m in Sources */,
+				802F07AD1A3ADAF4000FD6D9 /* FTPopoverView.m in Sources */,
+				8089C2F71744FF0400011D6E /* MathFactorial.m in Sources */,
+				8039C9EF1A89941D00978B3F /* FTApplication.m in Sources */,
+				801F3865193A145200835AED /* Symbol.m in Sources */,
+				8077CFF718E3CFA800F73E10 /* MathLog.m in Sources */,
+				8089C2FC1744FF0400011D6E /* UIScrollView+MyAdditions.m in Sources */,
+				8022860519E25A16003689F5 /* ViewControllerDropAnimator.m in Sources */,
+				803A030617DF065E00BCAFF2 /* MathKeyboard_iPhone.m in Sources */,
+				802F3F951A22CB7D0079D436 /* HTVC_Tag.m in Sources */,
+				80779F9D190DDC2400FAA4DA /* MyDecimal.m in Sources */,
+				801B8A60196A8EA500F2FE92 /* HistorySheet.m in Sources */,
+				802F07CC1A3B276C000FD6D9 /* FTTopWindow.m in Sources */,
+				801F3871193A145300835AED /* ConstantSheet.m in Sources */,
+				8089C3031744FF0400011D6E /* PreferencesViewController.m in Sources */,
+				8089C3041744FF0400011D6E /* TipsMasterViewController_iPhone.m in Sources */,
+				80811B1C19C177DD00DE62CD /* MathAngleUnitUserDefault.m in Sources */,
+				8080EFD2175071DB003851C1 /* UIResponder+MyAdditions.m in Sources */,
+				802F07C81A3B276C000FD6D9 /* FTSelectionSuite.m in Sources */,
+				80EDDE7A196A6B1700B61F13 /* HistorySheetsViewController.m in Sources */,
+				807D68EF1760AB6E00286597 /* MathPermille.m in Sources */,
+				80B444D8183B40E100DA6DA8 /* MathSinh.m in Sources */,
+				80B444E4183B443100DA6DA8 /* MathArcsinh.m in Sources */,
+				808B03461762F83000C10027 /* MathCombination.m in Sources */,
+				805E0FB81815570F00D70C53 /* MathFloor.m in Sources */,
+				8082E1651766C4A500FDF0A5 /* UITabBarController_PortraitOnly.m in Sources */,
+				80826186176D339A00DAA7BB /* MathEnvironment.m in Sources */,
+				80317E5518AA6518001E1319 /* MathKeyboard.m in Sources */,
+				802F07C41A3B276C000FD6D9 /* FTInputSystem.m in Sources */,
+				80BCF7DA179AD4D90076C255 /* TipsViewController_iPad.m in Sources */,
+				80BCF7E6179BBCA50076C255 /* TipsMasterViewController_iPad.m in Sources */,
+				80515BC81A348B5200A90F9C /* MathUnitInputView.m in Sources */,
+				80A0135D17A69EB500E51174 /* TipsDetailViewController.m in Sources */,
+				80A539F5198B3D3B00F1B196 /* UINavigationController_PortraitOnly.m in Sources */,
+				801F387D193A18EB00835AED /* HistoryRecord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80520FF418406BAA00B753DF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80520FF318406BAA00B753DF /* Base */,
+				80520FF518406BF700B753DF /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8079502C161938FB00E45AEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B44599183E333D00DA6DA8 /* Base */,
+				80FE978118B786FA00565F21 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8079503B161938FB00E45AEE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80EEF69817B8878F00347A61 /* Base */,
+				807B197B18520ADB004D7C1C /* zh-Hans */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		80B44583183DDAE600DA6DA8 /* tip5.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B44582183DDAE600DA6DA8 /* Base */,
+				80B44584183DDAEB00DA6DA8 /* zh-Hans */,
+			);
+			name = tip5.html;
+			sourceTree = "<group>";
+		};
+		80B6287417B8DCFB00ABC115 /* tip0.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B4459B183E340A00DA6DA8 /* Base */,
+				80B4459C183E342D00DA6DA8 /* zh-Hans */,
+			);
+			name = tip0.html;
+			sourceTree = "<group>";
+		};
+		80B6287917B90DAA00ABC115 /* tip1.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B4459D183E348200DA6DA8 /* Base */,
+				80B4459E183E349100DA6DA8 /* zh-Hans */,
+			);
+			name = tip1.html;
+			sourceTree = "<group>";
+		};
+		80B6288517B921E500ABC115 /* tip2.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B4459F183E34A900DA6DA8 /* Base */,
+				80B445A0183E34B000DA6DA8 /* zh-Hans */,
+			);
+			name = tip2.html;
+			sourceTree = "<group>";
+		};
+		80B6288A17B9223F00ABC115 /* tip3.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B445A1183E34C400DA6DA8 /* Base */,
+				80B445A2183E34CA00DA6DA8 /* zh-Hans */,
+			);
+			name = tip3.html;
+			sourceTree = "<group>";
+		};
+		80B6288F17B9229A00ABC115 /* tip4.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B445A3183E34E000DA6DA8 /* Base */,
+				80B445A4183E34EA00DA6DA8 /* zh-Hans */,
+			);
+			name = tip4.html;
+			sourceTree = "<group>";
+		};
+		80EEF69717B8877400347A61 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80EEF69917B8878F00347A61 /* Base */,
+				807B1979185209B1004D7C1C /* zh-Hans */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80795041161938FB00E45AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80795042161938FB00E45AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80795044161938FB00E45AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Lite";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalculator/iCalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					LITE_VERSION,
+				);
+				INFOPLIST_FILE = "iCalculator Lite-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fishtribe.${PRODUCT_NAME:rfc1034identifier}-Lite";
+				PRODUCT_NAME = iCalculator;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80795045161938FB00E45AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Lite";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalculator/iCalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					LITE_VERSION,
+				);
+				INFOPLIST_FILE = "iCalculator Lite-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fishtribe.${PRODUCT_NAME:rfc1034identifier}-Lite";
+				PRODUCT_NAME = iCalculator;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8089C3431744FF0400011D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalculator/iCalculator-Prefix.pch";
+				INFOPLIST_FILE = "iCalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fishtribe.${PRODUCT_NAME:rfc1034identifier}-Std";
+				PRODUCT_NAME = iCalculator;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8089C3441744FF0400011D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalculator/iCalculator-Prefix.pch";
+				INFOPLIST_FILE = "iCalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fishtribe.${PRODUCT_NAME:rfc1034identifier}-Std";
+				PRODUCT_NAME = iCalculator;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80795019161938FB00E45AEE /* Build configuration list for PBXProject "iCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80795041161938FB00E45AEE /* Debug */,
+				80795042161938FB00E45AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80795043161938FB00E45AEE /* Build configuration list for PBXNativeTarget "iCalculator Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80795044161938FB00E45AEE /* Debug */,
+				80795045161938FB00E45AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8089C3421744FF0400011D6E /* Build configuration list for PBXNativeTarget "iCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8089C3431744FF0400011D6E /* Debug */,
+				8089C3441744FF0400011D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80B750A11A528172008915FC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80DB622B1A76264D00C1E867 /* Model 2-1.xcdatamodel */,
+				80B750A21A528172008915FC /* Model 2.xcdatamodel */,
+				80B750A31A528172008915FC /* Model.xcdatamodel */,
+			);
+			currentVersion = 80DB622B1A76264D00C1E867 /* Model 2-1.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80795016161938FB00E45AEE /* Project object */;
+}

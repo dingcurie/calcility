@@ -1,0 +1,60 @@
+
+/* Class = "IBUILabel"; text = "( ), "; ObjectID = "2O6-Ip-ZZI"; */
+"2O6-Ip-ZZI.text" = "( ), ";
+
+/* Class = "IBUINavigationItem"; title = "Tips"; ObjectID = "Ccl-0U-Pmg"; */
+"Ccl-0U-Pmg.title" = "小贴士";
+
+/* Class = "IBUIButton"; normalTitle = "Go Review"; ObjectID = "Ze5-FL-CSt"; */
+"Ze5-FL-CSt.normalTitle" = "去评论";
+
+/* Class = "IBUIButton"; normalTitle = "Email Us"; ObjectID = "I2D-GT-73T"; */
+"I2D-GT-73T.normalTitle" = "写信给我们";
+
+/* Class = "IBUILabel"; text = "Still have questions?"; ObjectID = "z6e-v5-w8J"; */
+"z6e-v5-w8J.text" = "仍有问题？";
+
+/* Class = "IBUILabel"; text = "( ), "; ObjectID = "LpA-gr-Rnj"; */
+"LpA-gr-Rnj.text" = "( ), ";
+
+/* Class = "IBUILabel"; text = "Insert: "; ObjectID = "MMh-Zg-7d4"; */
+"MMh-Zg-7d4.text" = "插入：";
+
+/* Class = "IBUILabel"; text = "Remove: "; ObjectID = "OpH-0h-fLs"; */
+"OpH-0h-fLs.text" = "移除：";
+
+/* Class = "IBUILabel"; text = "Deg ⇄ Rad"; ObjectID = "TFJ-kQ-jmt"; */
+"TFJ-kQ-jmt.text" = "度 ⇌ 弧度";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Precedence"; ObjectID = "TTy-7v-5VQ"; */
+"TTy-7v-5VQ.headerTitle" = "优先级";
+
+/* Class = "IBUILabel"; text = "Use History"; ObjectID = "XiG-gG-4U8"; */
+"XiG-gG-4U8.text" = "使用历史";
+
+/* Class = "IBUILabel"; text = "Use Keyboard"; ObjectID = "YHU-6r-M0a"; */
+"YHU-6r-M0a.text" = "使用键盘";
+
+/* Class = "IBUILabel"; text = "Textbook Convention"; ObjectID = "bV2-sL-qkt"; */
+"bV2-sL-qkt.text" = "教科书惯例";
+
+/* Class = "IBUILabel"; text = "General"; ObjectID = "dve-Gy-Vgo"; */
+"dve-Gy-Vgo.text" = "概述";
+
+/* Class = "IBUITabBarItem"; title = "Preferences"; ObjectID = "g37-qW-Hgu"; */
+"g37-qW-Hgu.title" = "偏好设置";
+
+/* Class = "IBUINavigationItem"; title = "Preferences"; ObjectID = "jjP-3j-LYV"; */
+"jjP-3j-LYV.title" = "偏好设置";
+
+/* Class = "IBUITabBarItem"; title = "Tips"; ObjectID = "p9l-am-HRt"; */
+"p9l-am-HRt.title" = "小贴士";
+
+/* Class = "IBUILabel"; text = "FOR EXAMPLE,"; ObjectID = "yC3-eu-gBB"; */
+"yC3-eu-gBB.text" = "例如，";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Thousands Separator"; ObjectID = "Pwy-E7-9x2"; */
+"Pwy-E7-9x2.headerTitle" = "千位分隔符";
+
+/* Class = "IBUINavigationItem"; title = "History Sheets"; ObjectID = "gqF-Ba-EKu"; */
+"gqF-Ba-EKu.title" = "历史簿";

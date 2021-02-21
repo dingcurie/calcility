@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'iCalculator' target in the 'iCalculator' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import <tgmath.h>
+#import "FTKit.h"
+#import "MyAdditions.h"
+#import "AppDelegate.h"
+#import <CoreData/CoreData.h>
